@@ -1,0 +1,51 @@
+# Agentic Underwriting Assistant Configuration
+
+# Data paths
+data:
+  raw_path: "data/raw"
+  processed_path: "data/processed"
+  external_path: "data/external"
+
+# Model configuration
+models:
+  llm:
+    provider: "openai"  # or "local" for local models
+    model_name: "gpt-3.5-turbo"
+    temperature: 0.1
+    max_tokens: 1000
+  
+  embedding:
+    model_name: "sentence-transformers/all-MiniLM-L6-v2"
+    dimension: 384
+
+# RAG configuration
+rag:
+  chunk_size: 1000
+  chunk_overlap: 200
+  top_k: 5
+  similarity_threshold: 0.7
+
+# Risk scoring
+risk_scoring:
+  weights:
+    financial_health: 0.3
+    claims_history: 0.25
+    policy_compliance: 0.2
+    external_factors: 0.15
+    document_quality: 0.1
+  
+  thresholds:
+    low_risk: 0.3
+    medium_risk: 0.6
+    high_risk: 0.8
+
+# MLOps
+mlops:
+  experiment_tracking: "mlflow"  # or "wandb"
+  model_registry: true
+  auto_logging: true
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
