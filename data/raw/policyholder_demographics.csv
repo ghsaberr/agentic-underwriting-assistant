@@ -1,0 +1,1001 @@
+policyholder_id,age,gender,marital_status,annual_income,education_level,employment_status,credit_score,years_at_address,created_date
+PH_000001,52,Male,Single,33.6,Master,Employed,573,14.4,2024-10-27 20:57:36.461722
+PH_000002,42,Male,Single,64.65,PhD,Self-employed,537,2.0,2025-07-24 20:57:36.461722
+PH_000003,54,Female,Single,142.6,Bachelor,Employed,680,4.1,2025-09-07 20:57:36.461722
+PH_000004,67,Female,Married,36.84,High School,Retired,522,0.5,2025-05-02 20:57:36.461722
+PH_000005,41,Male,Divorced,20.0,Master,Employed,608,1.1,2025-05-17 20:57:36.461722
+PH_000006,41,Female,Married,89.64,High School,Employed,550,2.7,2025-05-28 20:57:36.461722
+PH_000007,68,Male,Married,32.84,High School,Retired,704,1.2,2025-07-10 20:57:36.461722
+PH_000008,56,Female,Single,21.08,Master,Employed,830,10.5,2025-07-29 20:57:36.461722
+PH_000009,37,Female,Divorced,33.13,High School,Self-employed,519,0.9,2024-10-08 20:57:36.461722
+PH_000010,53,Female,Married,47.11,High School,Self-employed,464,3.0,2024-12-14 20:57:36.461722
+PH_000011,38,Female,Single,33.66,High School,Unemployed,637,4.7,2025-08-06 20:57:36.461722
+PH_000012,38,Female,Married,20.0,Master,Retired,651,5.9,2024-11-21 20:57:36.461722
+PH_000013,48,Male,Single,111.91,Bachelor,Retired,671,2.4,2025-02-15 20:57:36.461722
+PH_000014,18,Female,Married,151.4,Bachelor,Employed,605,10.2,2025-09-03 20:57:36.461722
+PH_000015,19,Male,Married,91.95,High School,Unemployed,629,4.2,2025-09-04 20:57:36.461722
+PH_000016,36,Female,Divorced,21.97,Master,Self-employed,686,2.9,2025-08-03 20:57:36.461722
+PH_000017,29,Female,Married,46.47,Master,Self-employed,754,0.3,2025-05-31 20:57:36.461722
+PH_000018,49,Female,Married,54.31,High School,Employed,454,3.1,2025-05-23 20:57:36.461722
+PH_000019,31,Male,Widowed,88.15,Bachelor,Self-employed,613,8.6,2025-01-04 20:57:36.461722
+PH_000020,23,Female,Single,93.19,High School,Retired,671,4.8,2024-11-15 20:57:36.461722
+PH_000021,66,Female,Single,30.35,PhD,Retired,558,8.9,2025-09-06 20:57:36.461722
+PH_000022,41,Female,Married,58.3,Bachelor,Employed,823,3.4,2024-12-06 20:57:36.461722
+PH_000023,46,Male,Married,78.71,Master,Employed,586,0.6,2025-06-10 20:57:36.461722
+PH_000024,23,Male,Married,174.98,High School,Employed,645,0.1,2024-10-22 20:57:36.461722
+PH_000025,36,Male,Divorced,95.93,Master,Unemployed,705,1.8,2024-09-25 20:57:36.461722
+PH_000026,46,Male,Married,102.64,Master,Self-employed,590,6.0,2024-12-14 20:57:36.461722
+PH_000027,27,Female,Married,58.39,Bachelor,Employed,465,7.8,2025-02-17 20:57:36.461722
+PH_000028,50,Male,Married,168.74,PhD,Employed,607,1.8,2025-05-30 20:57:36.461722
+PH_000029,35,Female,Divorced,75.78,High School,Employed,752,3.4,2025-02-02 20:57:36.461722
+PH_000030,40,Male,Widowed,27.42,High School,Employed,616,2.7,2024-11-22 20:57:36.461722
+PH_000031,35,Male,Divorced,167.79,Bachelor,Retired,565,2.6,2025-04-30 20:57:36.461722
+PH_000032,72,Female,Single,95.42,Bachelor,Self-employed,742,1.3,2025-09-16 20:57:36.461722
+PH_000033,44,Female,Married,38.3,Bachelor,Employed,616,0.7,2025-06-30 20:57:36.461722
+PH_000034,29,Male,Single,37.2,High School,Employed,598,1.1,2024-09-27 20:57:36.461722
+PH_000035,57,Female,Single,69.22,Bachelor,Employed,664,0.3,2025-02-15 20:57:36.461722
+PH_000036,26,Female,Single,79.09,High School,Retired,727,1.1,2025-03-29 20:57:36.461722
+PH_000037,48,Male,Married,63.93,Bachelor,Employed,850,0.0,2025-04-30 20:57:36.461722
+PH_000038,18,Female,Married,70.04,Bachelor,Employed,732,4.9,2025-07-02 20:57:36.461722
+PH_000039,25,Female,Single,212.72,Bachelor,Employed,765,1.9,2025-06-01 20:57:36.461722
+PH_000040,47,Female,Married,128.67,High School,Self-employed,599,18.1,2025-03-31 20:57:36.461722
+PH_000041,56,Male,Married,63.59,Bachelor,Self-employed,547,1.1,2025-07-29 20:57:36.461722
+PH_000042,47,Female,Married,115.94,High School,Self-employed,656,2.1,2025-08-03 20:57:36.461722
+PH_000043,43,Male,Single,23.9,High School,Employed,660,2.2,2025-03-09 20:57:36.461722
+PH_000044,40,Male,Married,75.06,Master,Employed,542,0.0,2025-08-01 20:57:36.461722
+PH_000045,22,Male,Married,232.16,Master,Employed,632,9.1,2025-03-20 20:57:36.461722
+PH_000046,34,Male,Single,45.86,High School,Self-employed,689,0.2,2025-03-27 20:57:36.461722
+PH_000047,38,Female,Single,27.71,Master,Employed,686,14.1,2024-11-14 20:57:36.461722
+PH_000048,60,Female,Married,32.41,Master,Employed,700,11.1,2025-05-07 20:57:36.461722
+PH_000049,50,Female,Divorced,22.83,Master,Unemployed,679,3.8,2025-08-28 20:57:36.461722
+PH_000050,18,Male,Married,29.14,High School,Unemployed,599,3.9,2025-01-27 20:57:36.461722
+PH_000051,49,Male,Married,40.59,PhD,Employed,598,5.3,2024-12-19 20:57:36.461722
+PH_000052,39,Male,Married,20.0,High School,Employed,530,2.4,2025-07-18 20:57:36.461722
+PH_000053,34,Female,Married,55.28,High School,Employed,828,5.2,2025-03-10 20:57:36.461722
+PH_000054,54,Male,Single,112.37,High School,Self-employed,651,0.2,2025-08-10 20:57:36.461722
+PH_000055,60,Female,Married,26.41,Bachelor,Unemployed,627,0.3,2024-12-11 20:57:36.461722
+PH_000056,58,Female,Divorced,184.09,High School,Employed,557,3.1,2025-04-22 20:57:36.461722
+PH_000057,32,Male,Married,82.16,High School,Employed,850,4.0,2024-11-02 20:57:36.461722
+PH_000058,40,Female,Divorced,124.52,High School,Unemployed,542,10.9,2024-11-07 20:57:36.461722
+PH_000059,49,Male,Married,32.26,Master,Unemployed,607,0.6,2025-03-18 20:57:36.461722
+PH_000060,59,Female,Single,108.16,Master,Employed,691,8.6,2024-11-28 20:57:36.461722
+PH_000061,37,Female,Divorced,22.79,High School,Employed,710,1.2,2025-06-13 20:57:36.461722
+PH_000062,42,Male,Single,111.3,Master,Employed,745,2.5,2024-09-24 20:57:36.461722
+PH_000063,28,Male,Married,62.64,Master,Employed,830,1.9,2025-08-15 20:57:36.461722
+PH_000064,27,Female,Single,85.0,Master,Retired,700,2.6,2025-08-27 20:57:36.461722
+PH_000065,57,Female,Single,21.32,High School,Unemployed,544,0.8,2024-10-16 20:57:36.461722
+PH_000066,65,Male,Married,26.68,Bachelor,Self-employed,624,3.5,2025-05-26 20:57:36.461722
+PH_000067,43,Female,Single,88.04,Master,Employed,680,8.1,2025-04-24 20:57:36.461722
+PH_000068,60,Female,Married,25.57,Bachelor,Unemployed,850,2.9,2025-08-10 20:57:36.461722
+PH_000069,50,Female,Married,79.09,High School,Employed,510,3.4,2025-05-23 20:57:36.461722
+PH_000070,35,Male,Single,20.0,Bachelor,Employed,770,9.4,2025-07-30 20:57:36.461722
+PH_000071,50,Female,Single,107.61,Bachelor,Employed,667,6.1,2025-03-09 20:57:36.461722
+PH_000072,68,Female,Married,20.37,Bachelor,Employed,733,3.4,2025-04-30 20:57:36.461722
+PH_000073,44,Male,Married,84.93,High School,Self-employed,639,1.5,2025-01-30 20:57:36.461722
+PH_000074,68,Male,Married,90.06,High School,Employed,565,10.8,2024-10-29 20:57:36.461722
+PH_000075,18,Female,Married,31.27,Master,Employed,725,4.3,2025-03-17 20:57:36.461722
+PH_000076,57,Male,Divorced,86.98,Master,Employed,715,1.2,2025-06-28 20:57:36.461722
+PH_000077,46,Female,Married,67.25,High School,Employed,747,1.6,2025-03-14 20:57:36.461722
+PH_000078,40,Male,Married,35.48,PhD,Employed,648,8.1,2025-03-22 20:57:36.461722
+PH_000079,46,Male,Married,24.37,High School,Employed,590,0.2,2025-06-04 20:57:36.461722
+PH_000080,18,Female,Single,20.0,Bachelor,Unemployed,494,24.2,2024-10-11 20:57:36.461722
+PH_000081,41,Male,Married,72.22,Master,Employed,731,0.7,2025-05-06 20:57:36.461722
+PH_000082,50,Male,Married,20.0,Master,Employed,692,7.9,2024-09-25 20:57:36.461722
+PH_000083,67,Male,Married,58.93,Master,Employed,553,2.5,2024-10-05 20:57:36.461722
+PH_000084,37,Female,Married,44.22,High School,Unemployed,596,3.4,2024-10-23 20:57:36.461722
+PH_000085,32,Male,Divorced,94.0,Master,Employed,603,10.6,2025-08-14 20:57:36.461722
+PH_000086,37,Male,Divorced,42.88,High School,Employed,501,2.7,2024-11-12 20:57:36.461722
+PH_000087,58,Female,Divorced,41.95,Bachelor,Employed,568,3.9,2024-10-29 20:57:36.461722
+PH_000088,49,Male,Married,98.05,Bachelor,Employed,536,0.3,2025-06-24 20:57:36.461722
+PH_000089,37,Female,Married,71.38,Bachelor,Employed,608,0.0,2024-12-20 20:57:36.461722
+PH_000090,52,Male,Married,70.31,High School,Self-employed,576,1.4,2025-05-17 20:57:36.461722
+PH_000091,46,Female,Married,79.47,Master,Self-employed,487,5.7,2025-06-28 20:57:36.461722
+PH_000092,59,Male,Married,20.0,High School,Employed,850,0.6,2025-01-26 20:57:36.461722
+PH_000093,34,Female,Married,100.03,High School,Self-employed,775,0.6,2025-03-09 20:57:36.461722
+PH_000094,40,Male,Married,89.12,Bachelor,Self-employed,572,2.6,2025-05-04 20:57:36.461722
+PH_000095,39,Male,Married,24.21,Bachelor,Employed,677,5.2,2024-10-27 20:57:36.461722
+PH_000096,23,Male,Single,44.91,Master,Employed,691,6.2,2024-10-02 20:57:36.461722
+PH_000097,49,Male,Married,52.91,High School,Employed,769,1.0,2024-12-08 20:57:36.461722
+PH_000098,48,Male,Single,49.03,High School,Employed,568,0.4,2025-05-30 20:57:36.461722
+PH_000099,45,Male,Divorced,71.31,Master,Self-employed,759,14.1,2024-10-04 20:57:36.461722
+PH_000100,41,Female,Married,171.59,Bachelor,Unemployed,595,1.5,2025-04-06 20:57:36.461722
+PH_000101,23,Male,Single,129.72,High School,Retired,516,9.6,2025-08-22 20:57:36.461722
+PH_000102,38,Male,Single,20.0,Bachelor,Self-employed,722,10.0,2025-05-25 20:57:36.461722
+PH_000103,39,Female,Married,89.81,Bachelor,Employed,779,7.4,2025-09-03 20:57:36.461722
+PH_000104,32,Female,Married,158.09,Bachelor,Employed,850,0.9,2025-04-11 20:57:36.461722
+PH_000105,42,Male,Married,74.4,Bachelor,Unemployed,530,8.6,2025-02-26 20:57:36.461722
+PH_000106,51,Male,Single,130.68,Master,Employed,719,7.3,2025-05-05 20:57:36.461722
+PH_000107,73,Male,Married,273.09,Master,Self-employed,609,4.5,2025-08-17 20:57:36.461722
+PH_000108,47,Female,Married,123.84,Bachelor,Self-employed,728,2.1,2025-06-03 20:57:36.461722
+PH_000109,48,Female,Married,66.65,High School,Self-employed,502,1.5,2024-12-03 20:57:36.461722
+PH_000110,43,Male,Married,125.97,Master,Unemployed,523,0.6,2025-04-11 20:57:36.461722
+PH_000111,18,Female,Married,61.31,Bachelor,Employed,572,3.6,2025-06-03 20:57:36.461722
+PH_000112,44,Female,Single,55.65,Bachelor,Self-employed,657,4.4,2024-10-19 20:57:36.461722
+PH_000113,45,Female,Widowed,41.22,High School,Unemployed,585,2.2,2025-01-07 20:57:36.461722
+PH_000114,80,Female,Married,190.71,Master,Employed,715,3.2,2025-03-01 20:57:36.461722
+PH_000115,42,Male,Married,28.37,Bachelor,Self-employed,752,2.3,2024-10-25 20:57:36.461722
+PH_000116,49,Male,Single,186.03,High School,Employed,709,5.1,2025-01-28 20:57:36.461722
+PH_000117,44,Male,Married,81.44,Bachelor,Retired,811,11.6,2025-07-08 20:57:36.461722
+PH_000118,27,Male,Single,20.0,Master,Employed,691,0.9,2025-05-07 20:57:36.461722
+PH_000119,62,Female,Married,73.27,High School,Employed,528,2.4,2025-07-10 20:57:36.461722
+PH_000120,56,Female,Widowed,20.0,PhD,Employed,786,0.8,2025-05-16 20:57:36.461722
+PH_000121,56,Male,Married,90.05,Bachelor,Self-employed,589,4.9,2024-12-06 20:57:36.461722
+PH_000122,31,Male,Single,110.85,Bachelor,Employed,741,6.5,2024-12-18 20:57:36.461722
+PH_000123,66,Male,Single,33.99,High School,Employed,807,13.4,2025-05-08 20:57:36.461722
+PH_000124,23,Female,Married,60.27,High School,Employed,695,1.6,2024-11-24 20:57:36.461722
+PH_000125,53,Male,Single,260.69,Master,Retired,500,15.0,2025-02-12 20:57:36.461722
+PH_000126,77,Male,Single,36.43,High School,Employed,558,0.3,2024-11-25 20:57:36.461722
+PH_000127,30,Male,Married,23.4,Master,Employed,782,4.6,2025-02-27 20:57:36.461722
+PH_000128,36,Male,Married,178.63,High School,Self-employed,633,0.3,2025-03-18 20:57:36.461722
+PH_000129,46,Female,Single,262.45,High School,Employed,657,11.2,2025-05-30 20:57:36.461722
+PH_000130,37,Female,Divorced,54.76,High School,Retired,725,3.8,2025-07-11 20:57:36.461722
+PH_000131,21,Male,Single,122.63,Bachelor,Employed,719,5.5,2025-01-02 20:57:36.461722
+PH_000132,46,Female,Widowed,159.68,PhD,Self-employed,677,8.9,2025-01-10 20:57:36.461722
+PH_000133,29,Female,Married,30.14,High School,Employed,629,0.8,2025-08-04 20:57:36.461722
+PH_000134,52,Female,Divorced,37.03,High School,Employed,618,0.2,2025-08-26 20:57:36.461722
+PH_000135,31,Male,Married,146.16,High School,Self-employed,735,10.6,2025-07-25 20:57:36.461722
+PH_000136,68,Male,Divorced,210.19,Bachelor,Employed,705,1.9,2025-07-03 20:57:36.461722
+PH_000137,33,Male,Widowed,85.65,Bachelor,Self-employed,624,0.7,2024-11-02 20:57:36.461722
+PH_000138,40,Female,Single,27.01,Master,Employed,758,3.2,2025-06-30 20:57:36.461722
+PH_000139,57,Male,Widowed,267.64,Bachelor,Employed,637,4.6,2024-10-06 20:57:36.461722
+PH_000140,26,Male,Married,35.7,Bachelor,Employed,564,0.2,2025-02-15 20:57:36.461722
+PH_000141,48,Male,Married,41.76,High School,Retired,574,1.6,2024-11-18 20:57:36.461722
+PH_000142,64,Female,Married,71.8,PhD,Employed,552,0.2,2025-08-18 20:57:36.461722
+PH_000143,20,Male,Married,189.3,High School,Employed,622,2.7,2025-03-06 20:57:36.461722
+PH_000144,47,Female,Single,108.11,High School,Employed,773,11.3,2025-03-08 20:57:36.461722
+PH_000145,48,Female,Married,76.09,Bachelor,Employed,569,20.3,2024-11-18 20:57:36.461722
+PH_000146,56,Male,Married,79.09,Bachelor,Employed,668,5.1,2025-01-23 20:57:36.461722
+PH_000147,26,Female,Married,56.53,Bachelor,Retired,584,0.9,2024-12-23 20:57:36.461722
+PH_000148,25,Male,Divorced,85.33,Bachelor,Employed,623,11.8,2025-05-14 20:57:36.461722
+PH_000149,52,Female,Married,20.0,Master,Unemployed,498,3.6,2024-12-10 20:57:36.461722
+PH_000150,49,Male,Married,43.07,High School,Employed,627,0.8,2025-09-14 20:57:36.461722
+PH_000151,48,Female,Single,66.22,Master,Self-employed,630,12.7,2024-10-06 20:57:36.461722
+PH_000152,50,Female,Single,21.74,Bachelor,Retired,704,7.1,2025-07-23 20:57:36.461722
+PH_000153,34,Female,Single,74.37,Bachelor,Employed,672,6.6,2024-10-05 20:57:36.461722
+PH_000154,48,Female,Married,46.36,Bachelor,Retired,530,6.2,2024-12-19 20:57:36.461722
+PH_000155,49,Male,Single,222.38,High School,Employed,758,1.1,2025-05-06 20:57:36.461722
+PH_000156,34,Female,Widowed,192.18,Master,Retired,671,1.2,2024-10-26 20:57:36.461722
+PH_000157,72,Female,Married,37.61,Bachelor,Self-employed,669,5.8,2025-03-29 20:57:36.461722
+PH_000158,52,Female,Married,48.39,High School,Employed,649,1.2,2025-07-24 20:57:36.461722
+PH_000159,27,Male,Married,51.46,Bachelor,Employed,598,2.9,2025-04-22 20:57:36.461722
+PH_000160,54,Female,Single,38.04,PhD,Employed,671,7.6,2025-02-09 20:57:36.461722
+PH_000161,30,Female,Married,63.82,Bachelor,Employed,697,7.7,2025-07-01 20:57:36.461722
+PH_000162,56,Female,Married,29.77,Master,Employed,475,3.0,2025-01-30 20:57:36.461722
+PH_000163,62,Male,Married,22.1,High School,Employed,596,7.9,2025-09-18 20:57:36.461722
+PH_000164,32,Female,Married,89.85,High School,Employed,624,9.1,2025-05-08 20:57:36.461722
+PH_000165,59,Male,Widowed,90.34,High School,Self-employed,675,5.3,2025-01-06 20:57:36.461722
+PH_000166,51,Female,Divorced,28.69,Bachelor,Employed,769,1.3,2025-06-20 20:57:36.461722
+PH_000167,57,Male,Married,111.75,High School,Employed,572,1.6,2025-01-03 20:57:36.461722
+PH_000168,73,Female,Married,32.94,High School,Self-employed,600,1.9,2025-07-27 20:57:36.461722
+PH_000169,41,Female,Married,66.86,Master,Employed,598,0.6,2024-11-03 20:57:36.461722
+PH_000170,33,Male,Single,105.24,Master,Employed,569,1.6,2025-04-20 20:57:36.461722
+PH_000171,31,Female,Married,53.15,Bachelor,Employed,615,1.2,2024-10-27 20:57:36.461722
+PH_000172,32,Male,Single,78.55,High School,Retired,727,3.0,2025-01-03 20:57:36.461722
+PH_000173,43,Female,Married,36.12,High School,Unemployed,544,12.0,2024-11-12 20:57:36.461722
+PH_000174,50,Female,Married,46.66,High School,Employed,692,0.6,2025-06-10 20:57:36.461722
+PH_000175,49,Female,Single,46.31,Bachelor,Self-employed,479,6.4,2025-07-03 20:57:36.461722
+PH_000176,57,Female,Widowed,30.05,Master,Employed,593,5.8,2025-03-12 20:57:36.461722
+PH_000177,45,Female,Divorced,47.4,Bachelor,Self-employed,617,0.5,2025-06-29 20:57:36.461722
+PH_000178,66,Male,Married,20.0,High School,Self-employed,817,12.8,2024-12-17 20:57:36.461722
+PH_000179,41,Male,Married,36.86,Bachelor,Self-employed,622,4.2,2024-12-22 20:57:36.461722
+PH_000180,80,Female,Divorced,43.47,High School,Employed,429,2.3,2025-09-19 20:57:36.461722
+PH_000181,54,Female,Single,44.48,High School,Employed,450,7.1,2024-11-17 20:57:36.461722
+PH_000182,32,Female,Married,45.01,Bachelor,Employed,653,1.5,2025-04-07 20:57:36.461722
+PH_000183,28,Female,Single,51.97,Bachelor,Unemployed,711,5.9,2025-01-12 20:57:36.461722
+PH_000184,52,Male,Married,80.12,High School,Employed,687,0.2,2025-09-10 20:57:36.461722
+PH_000185,41,Female,Single,109.9,High School,Unemployed,666,9.1,2025-07-24 20:57:36.461722
+PH_000186,55,Male,Divorced,32.47,PhD,Retired,766,3.0,2025-03-18 20:57:36.461722
+PH_000187,52,Female,Divorced,20.85,High School,Employed,596,5.1,2025-04-15 20:57:36.461722
+PH_000188,43,Male,Single,23.72,High School,Self-employed,739,1.3,2025-05-20 20:57:36.461722
+PH_000189,32,Male,Married,36.97,High School,Self-employed,486,5.7,2025-08-21 20:57:36.461722
+PH_000190,22,Male,Widowed,41.2,High School,Retired,559,7.4,2025-05-19 20:57:36.461722
+PH_000191,38,Male,Married,29.49,High School,Retired,469,3.2,2024-12-03 20:57:36.461722
+PH_000192,57,Female,Divorced,20.0,Master,Self-employed,622,4.8,2025-08-10 20:57:36.461722
+PH_000193,48,Male,Married,37.91,High School,Employed,645,3.0,2025-08-07 20:57:36.461722
+PH_000194,26,Male,Married,63.13,Bachelor,Self-employed,661,11.2,2025-01-14 20:57:36.461722
+PH_000195,47,Male,Single,87.88,Bachelor,Employed,656,3.4,2025-08-15 20:57:36.461722
+PH_000196,50,Male,Single,34.96,Bachelor,Self-employed,557,9.2,2024-12-21 20:57:36.461722
+PH_000197,31,Male,Married,39.24,Master,Retired,630,8.1,2025-07-17 20:57:36.461722
+PH_000198,47,Male,Married,26.01,Master,Employed,500,2.6,2025-07-16 20:57:36.461722
+PH_000199,45,Female,Married,53.24,High School,Self-employed,786,1.3,2024-10-17 20:57:36.461722
+PH_000200,27,Female,Married,27.7,Master,Employed,619,2.6,2025-01-19 20:57:36.461722
+PH_000201,50,Female,Married,86.36,Bachelor,Employed,601,8.7,2024-12-12 20:57:36.461722
+PH_000202,53,Male,Divorced,20.0,PhD,Employed,808,1.3,2025-06-27 20:57:36.461722
+PH_000203,61,Male,Widowed,40.95,Bachelor,Self-employed,525,3.7,2025-05-07 20:57:36.461722
+PH_000204,60,Female,Married,69.47,PhD,Retired,537,8.2,2024-12-23 20:57:36.461722
+PH_000205,24,Male,Divorced,63.25,Master,Retired,540,2.2,2024-11-13 20:57:36.461722
+PH_000206,30,Male,Married,470.8,High School,Employed,643,5.1,2025-02-15 20:57:36.461722
+PH_000207,52,Male,Married,72.23,Bachelor,Unemployed,693,1.4,2025-06-03 20:57:36.461722
+PH_000208,52,Male,Widowed,24.45,PhD,Self-employed,723,0.6,2024-12-17 20:57:36.461722
+PH_000209,52,Male,Single,50.58,Master,Employed,850,7.9,2024-10-01 20:57:36.461722
+PH_000210,80,Male,Single,20.0,High School,Employed,425,0.5,2025-06-09 20:57:36.461722
+PH_000211,53,Female,Divorced,51.19,Bachelor,Employed,710,1.6,2025-04-13 20:57:36.461722
+PH_000212,62,Female,Married,28.04,High School,Retired,594,9.7,2025-02-27 20:57:36.461722
+PH_000213,59,Female,Divorced,113.56,High School,Self-employed,591,2.1,2024-10-11 20:57:36.461722
+PH_000214,54,Female,Divorced,35.18,Bachelor,Self-employed,588,18.1,2024-10-22 20:57:36.461722
+PH_000215,40,Female,Single,49.73,High School,Employed,559,19.5,2025-03-12 20:57:36.461722
+PH_000216,56,Female,Divorced,32.84,Master,Self-employed,818,1.6,2025-02-07 20:57:36.461722
+PH_000217,33,Female,Married,219.44,High School,Employed,734,0.2,2024-12-29 20:57:36.461722
+PH_000218,41,Male,Married,42.22,Master,Employed,652,6.1,2025-01-31 20:57:36.461722
+PH_000219,37,Male,Married,236.52,High School,Self-employed,785,3.0,2025-07-20 20:57:36.461722
+PH_000220,46,Male,Divorced,104.72,High School,Employed,498,0.5,2025-05-16 20:57:36.461722
+PH_000221,79,Female,Single,80.29,High School,Unemployed,516,6.1,2025-05-27 20:57:36.461722
+PH_000222,18,Female,Married,73.33,High School,Employed,432,0.2,2025-08-18 20:57:36.461722
+PH_000223,55,Male,Married,74.82,High School,Self-employed,580,10.2,2025-03-30 20:57:36.461722
+PH_000224,20,Female,Married,20.0,High School,Employed,666,0.7,2025-09-09 20:57:36.461722
+PH_000225,37,Male,Married,43.68,Bachelor,Employed,660,0.7,2024-11-22 20:57:36.461722
+PH_000226,61,Female,Single,107.35,High School,Employed,664,1.0,2024-12-10 20:57:36.461722
+PH_000227,45,Male,Single,52.5,Bachelor,Employed,508,16.1,2025-05-25 20:57:36.461722
+PH_000228,28,Male,Married,20.0,High School,Retired,730,5.9,2024-11-22 20:57:36.461722
+PH_000229,34,Male,Divorced,52.36,Master,Employed,673,8.1,2025-05-30 20:57:36.461722
+PH_000230,55,Male,Single,213.42,Master,Unemployed,723,2.5,2025-09-16 20:57:36.461722
+PH_000231,34,Male,Single,148.04,Bachelor,Retired,460,2.0,2025-08-14 20:57:36.461722
+PH_000232,48,Male,Widowed,51.96,High School,Employed,681,1.3,2024-09-22 20:57:36.461722
+PH_000233,45,Female,Single,116.88,High School,Employed,531,3.3,2024-10-31 20:57:36.461722
+PH_000234,35,Female,Widowed,40.72,PhD,Self-employed,610,4.0,2025-08-20 20:57:36.461722
+PH_000235,77,Male,Married,20.0,High School,Retired,703,5.0,2025-05-25 20:57:36.461722
+PH_000236,54,Female,Divorced,26.06,High School,Retired,659,1.5,2025-08-16 20:57:36.461722
+PH_000237,18,Female,Single,190.63,High School,Employed,564,14.8,2025-09-03 20:57:36.461722
+PH_000238,47,Male,Single,43.85,High School,Self-employed,650,0.9,2025-04-03 20:57:36.461722
+PH_000239,35,Male,Married,44.94,High School,Employed,496,16.9,2025-08-14 20:57:36.461722
+PH_000240,57,Male,Divorced,42.95,Master,Retired,765,0.1,2024-12-30 20:57:36.461722
+PH_000241,33,Male,Married,250.46,High School,Retired,629,3.3,2025-05-21 20:57:36.461722
+PH_000242,43,Female,Single,200.49,Bachelor,Employed,761,2.0,2025-04-30 20:57:36.461722
+PH_000243,52,Male,Married,322.15,High School,Employed,597,3.0,2024-10-12 20:57:36.461722
+PH_000244,57,Female,Married,48.08,High School,Employed,597,4.2,2025-01-14 20:57:36.461722
+PH_000245,26,Female,Married,69.17,Master,Employed,573,2.9,2025-06-02 20:57:36.461722
+PH_000246,39,Male,Married,20.0,High School,Unemployed,737,2.7,2024-12-17 20:57:36.461722
+PH_000247,37,Female,Divorced,177.96,Master,Employed,579,6.6,2025-07-14 20:57:36.461722
+PH_000248,35,Male,Married,21.45,Bachelor,Employed,714,5.8,2024-12-01 20:57:36.461722
+PH_000249,71,Female,Single,64.94,High School,Employed,611,9.0,2024-11-28 20:57:36.462403
+PH_000250,51,Male,Married,22.7,PhD,Retired,452,1.4,2025-01-20 20:57:36.462403
+PH_000251,26,Female,Single,34.09,High School,Self-employed,592,4.7,2025-05-18 20:57:36.462403
+PH_000252,58,Female,Married,27.94,Master,Employed,532,4.4,2025-01-20 20:57:36.462403
+PH_000253,76,Male,Married,33.57,High School,Employed,653,2.3,2025-02-23 20:57:36.462403
+PH_000254,60,Female,Single,35.47,Master,Retired,530,3.3,2025-06-14 20:57:36.462403
+PH_000255,22,Female,Married,35.21,High School,Unemployed,742,1.9,2025-08-02 20:57:36.462403
+PH_000256,37,Female,Single,106.34,Bachelor,Employed,640,0.8,2025-08-01 20:57:36.462403
+PH_000257,64,Female,Divorced,22.56,Master,Employed,632,1.2,2024-10-17 20:57:36.462403
+PH_000258,34,Female,Divorced,65.13,Master,Employed,715,0.6,2025-02-11 20:57:36.462403
+PH_000259,51,Male,Single,144.66,Master,Employed,746,5.7,2025-03-22 20:57:36.462403
+PH_000260,56,Male,Widowed,36.21,Master,Employed,647,5.4,2025-02-15 20:57:36.462403
+PH_000261,31,Female,Married,30.74,Master,Retired,572,15.0,2025-02-21 20:57:36.462403
+PH_000262,44,Male,Single,45.4,High School,Employed,472,6.5,2025-01-23 20:57:36.462403
+PH_000263,18,Female,Single,140.3,High School,Unemployed,581,0.3,2025-08-23 20:57:36.462403
+PH_000264,29,Female,Married,63.77,High School,Employed,588,10.8,2024-10-10 20:57:36.462403
+PH_000265,41,Male,Married,35.7,High School,Self-employed,660,9.9,2024-10-20 20:57:36.462403
+PH_000266,26,Male,Married,80.41,High School,Self-employed,615,2.9,2024-10-24 20:57:36.462403
+PH_000267,69,Female,Single,22.6,Bachelor,Employed,718,4.4,2025-07-31 20:57:36.462403
+PH_000268,23,Male,Single,94.17,High School,Employed,588,18.7,2025-08-19 20:57:36.462403
+PH_000269,38,Female,Married,75.71,Bachelor,Self-employed,644,3.8,2025-02-25 20:57:36.462403
+PH_000270,46,Male,Single,42.68,High School,Employed,768,11.8,2025-03-30 20:57:36.462403
+PH_000271,66,Female,Single,27.91,High School,Employed,684,0.4,2025-07-26 20:57:36.462403
+PH_000272,23,Male,Single,26.86,Bachelor,Employed,643,1.1,2025-05-15 20:57:36.462403
+PH_000273,62,Female,Divorced,83.75,Master,Retired,589,2.9,2025-06-13 20:57:36.462403
+PH_000274,45,Male,Divorced,145.94,Bachelor,Employed,586,4.4,2025-06-14 20:57:36.462403
+PH_000275,30,Female,Married,32.79,Bachelor,Unemployed,564,8.5,2024-12-19 20:57:36.462403
+PH_000276,51,Male,Divorced,78.78,High School,Employed,595,22.2,2025-02-02 20:57:36.462403
+PH_000277,47,Female,Married,20.0,Bachelor,Self-employed,725,2.5,2025-07-10 20:57:36.462403
+PH_000278,35,Female,Married,34.2,High School,Employed,627,0.2,2025-02-15 20:57:36.462403
+PH_000279,46,Male,Single,53.26,High School,Unemployed,515,8.1,2025-06-18 20:57:36.462403
+PH_000280,39,Male,Married,26.37,Bachelor,Employed,826,4.6,2025-04-30 20:57:36.462403
+PH_000281,46,Male,Widowed,25.81,High School,Self-employed,681,1.1,2025-01-26 20:57:36.462403
+PH_000282,54,Female,Married,32.0,High School,Self-employed,509,3.4,2025-05-15 20:57:36.462403
+PH_000283,68,Female,Married,68.98,PhD,Employed,605,6.8,2025-08-12 20:57:36.462403
+PH_000284,26,Female,Married,47.0,PhD,Employed,661,7.4,2025-02-05 20:57:36.462403
+PH_000285,76,Male,Single,20.0,High School,Employed,820,3.5,2024-12-12 20:57:36.462403
+PH_000286,18,Male,Divorced,20.0,High School,Employed,539,1.8,2025-07-31 20:57:36.462403
+PH_000287,42,Female,Married,33.6,High School,Unemployed,747,18.2,2025-08-25 20:57:36.462403
+PH_000288,53,Male,Married,78.74,High School,Employed,789,5.4,2024-10-21 20:57:36.462403
+PH_000289,49,Female,Married,20.0,Master,Employed,587,2.6,2024-12-17 20:57:36.462403
+PH_000290,35,Male,Married,36.61,High School,Self-employed,622,1.6,2025-09-12 20:57:36.462403
+PH_000291,41,Female,Single,35.84,Master,Employed,546,6.6,2025-08-03 20:57:36.462403
+PH_000292,37,Male,Married,165.78,High School,Employed,629,1.4,2025-05-21 20:57:36.462403
+PH_000293,36,Male,Single,40.12,PhD,Employed,646,0.9,2025-06-26 20:57:36.462403
+PH_000294,57,Female,Married,74.17,High School,Retired,715,3.8,2025-02-23 20:57:36.462403
+PH_000295,50,Female,Divorced,61.13,Master,Unemployed,759,1.7,2025-01-14 20:57:36.462403
+PH_000296,34,Female,Divorced,20.0,High School,Unemployed,575,5.0,2025-01-16 20:57:36.462403
+PH_000297,58,Male,Married,100.94,Bachelor,Employed,453,0.6,2025-06-02 20:57:36.462403
+PH_000298,49,Male,Married,64.87,High School,Self-employed,647,5.3,2025-02-26 20:57:36.462403
+PH_000299,57,Female,Single,81.99,High School,Employed,679,1.7,2025-08-20 20:57:36.462403
+PH_000300,54,Female,Married,500.0,Master,Employed,674,0.0,2025-06-27 20:57:36.462403
+PH_000301,32,Male,Single,20.0,Master,Employed,617,0.7,2025-03-09 20:57:36.462403
+PH_000302,36,Male,Married,216.97,Master,Employed,662,13.6,2025-09-18 20:57:36.462403
+PH_000303,56,Male,Single,43.38,Bachelor,Employed,801,10.1,2025-03-04 20:57:36.462403
+PH_000304,54,Female,Single,68.71,Master,Employed,688,1.3,2025-05-07 20:57:36.462403
+PH_000305,44,Male,Married,52.65,High School,Employed,612,7.5,2025-01-30 20:57:36.462403
+PH_000306,46,Male,Single,38.89,High School,Employed,599,4.7,2025-04-26 20:57:36.462403
+PH_000307,64,Male,Married,34.61,High School,Self-employed,633,17.7,2025-02-15 20:57:36.462403
+PH_000308,36,Male,Married,71.07,Bachelor,Employed,813,2.3,2024-09-28 20:57:36.462403
+PH_000309,53,Male,Single,20.0,High School,Self-employed,631,5.7,2024-12-09 20:57:36.462403
+PH_000310,41,Male,Married,99.53,High School,Employed,648,0.3,2024-10-16 20:57:36.462403
+PH_000311,41,Male,Single,39.14,Bachelor,Unemployed,601,2.5,2025-01-13 20:57:36.462403
+PH_000312,61,Female,Single,22.11,Master,Employed,759,16.6,2025-07-02 20:57:36.462403
+PH_000313,57,Male,Married,38.09,High School,Employed,845,3.9,2025-06-14 20:57:36.462403
+PH_000314,57,Female,Single,149.26,High School,Employed,695,1.7,2025-04-21 20:57:36.462403
+PH_000315,64,Female,Divorced,35.58,High School,Self-employed,658,0.6,2025-05-31 20:57:36.462403
+PH_000316,45,Female,Single,72.73,High School,Unemployed,653,6.1,2025-08-21 20:57:36.462403
+PH_000317,55,Female,Single,30.42,High School,Employed,411,5.2,2024-11-27 20:57:36.462403
+PH_000318,40,Male,Married,100.12,Bachelor,Employed,724,2.3,2024-12-16 20:57:36.462403
+PH_000319,49,Male,Married,94.48,Bachelor,Unemployed,663,15.1,2025-08-19 20:57:36.462403
+PH_000320,43,Female,Single,239.58,Bachelor,Self-employed,692,0.1,2025-04-12 20:57:36.462403
+PH_000321,46,Female,Married,47.44,High School,Employed,578,1.8,2025-08-21 20:57:36.462403
+PH_000322,53,Female,Single,93.22,Master,Employed,611,12.7,2025-08-25 20:57:36.462403
+PH_000323,32,Female,Divorced,59.05,High School,Employed,608,1.9,2024-11-24 20:57:36.462403
+PH_000324,76,Female,Married,153.96,Bachelor,Self-employed,752,1.5,2025-01-18 20:57:36.462403
+PH_000325,29,Male,Married,30.72,Master,Employed,612,3.8,2025-01-05 20:57:36.462403
+PH_000326,26,Male,Divorced,99.09,High School,Retired,850,8.7,2024-12-22 20:57:36.462403
+PH_000327,62,Female,Married,46.72,High School,Employed,693,0.5,2025-07-01 20:57:36.462403
+PH_000328,56,Female,Divorced,51.87,Master,Employed,522,14.3,2025-08-21 20:57:36.462403
+PH_000329,54,Male,Married,58.76,High School,Employed,637,7.9,2025-01-02 20:57:36.462403
+PH_000330,54,Female,Widowed,66.81,Bachelor,Retired,584,1.0,2025-08-09 20:57:36.462403
+PH_000331,44,Male,Single,49.75,High School,Unemployed,430,6.2,2025-06-16 20:57:36.462403
+PH_000332,31,Female,Married,64.83,Bachelor,Employed,809,2.4,2025-08-15 20:57:36.462403
+PH_000333,46,Male,Married,192.96,High School,Self-employed,720,2.6,2024-11-19 20:57:36.462403
+PH_000334,34,Male,Married,120.1,High School,Employed,703,7.6,2025-08-16 20:57:36.462403
+PH_000335,59,Female,Married,109.43,Bachelor,Employed,666,16.5,2024-10-09 20:57:36.462403
+PH_000336,42,Male,Married,37.92,High School,Employed,511,0.7,2025-05-22 20:57:36.462403
+PH_000337,32,Female,Single,26.81,High School,Employed,601,2.7,2025-02-25 20:57:36.462403
+PH_000338,40,Female,Single,117.24,High School,Employed,734,3.3,2025-07-20 20:57:36.462403
+PH_000339,51,Female,Married,110.04,High School,Retired,544,2.4,2024-12-02 20:57:36.462403
+PH_000340,36,Male,Married,177.35,High School,Employed,396,2.3,2025-05-16 20:57:36.462403
+PH_000341,32,Male,Widowed,33.68,High School,Retired,627,0.3,2024-11-27 20:57:36.462403
+PH_000342,48,Male,Married,45.44,Master,Employed,635,5.8,2024-11-19 20:57:36.462403
+PH_000343,48,Female,Widowed,20.0,High School,Self-employed,663,2.9,2025-08-30 20:57:36.462403
+PH_000344,37,Female,Married,39.89,Bachelor,Employed,722,1.1,2024-11-06 20:57:36.462403
+PH_000345,37,Female,Single,121.18,High School,Employed,713,8.5,2025-08-09 20:57:36.462403
+PH_000346,48,Female,Single,37.59,High School,Employed,675,8.1,2025-02-17 20:57:36.462403
+PH_000347,23,Female,Married,91.14,Master,Employed,769,3.3,2024-10-18 20:57:36.462403
+PH_000348,23,Female,Married,46.88,High School,Self-employed,498,1.8,2024-11-25 20:57:36.462403
+PH_000349,34,Male,Single,70.76,PhD,Employed,700,5.1,2024-12-04 20:57:36.462403
+PH_000350,41,Female,Married,21.8,High School,Self-employed,712,1.7,2024-12-26 20:57:36.462403
+PH_000351,49,Male,Widowed,58.45,Bachelor,Employed,526,1.3,2025-04-11 20:57:36.462403
+PH_000352,67,Female,Married,20.0,Bachelor,Employed,499,6.6,2025-05-09 20:57:36.462403
+PH_000353,57,Female,Married,47.02,Master,Employed,575,0.2,2025-06-07 20:57:36.462403
+PH_000354,42,Female,Married,20.0,Bachelor,Retired,583,0.5,2024-10-12 20:57:36.462403
+PH_000355,44,Male,Single,143.28,Bachelor,Self-employed,725,0.0,2025-04-12 20:57:36.462403
+PH_000356,29,Male,Married,101.69,High School,Employed,588,0.8,2025-05-20 20:57:36.462403
+PH_000357,44,Male,Married,79.31,High School,Employed,564,0.4,2025-05-07 20:57:36.462403
+PH_000358,40,Male,Single,184.34,Master,Employed,588,27.4,2025-03-01 20:57:36.462403
+PH_000359,49,Male,Married,25.56,High School,Retired,761,1.7,2025-07-14 20:57:36.462403
+PH_000360,32,Female,Married,220.94,High School,Self-employed,651,0.8,2024-10-11 20:57:36.462403
+PH_000361,52,Female,Divorced,115.09,Master,Employed,632,1.4,2024-10-24 20:57:36.462403
+PH_000362,67,Male,Divorced,45.18,High School,Employed,638,13.8,2025-04-19 20:57:36.462403
+PH_000363,43,Male,Single,135.44,PhD,Employed,779,3.7,2025-01-28 20:57:36.462403
+PH_000364,51,Male,Married,22.53,Bachelor,Retired,575,2.3,2025-04-11 20:57:36.462403
+PH_000365,55,Female,Married,28.23,Bachelor,Employed,781,10.3,2025-08-13 20:57:36.462403
+PH_000366,38,Male,Divorced,33.55,Master,Self-employed,671,2.5,2025-09-15 20:57:36.462403
+PH_000367,48,Female,Single,35.76,High School,Employed,633,2.0,2025-01-28 20:57:36.462403
+PH_000368,45,Male,Married,23.45,High School,Self-employed,850,1.2,2024-11-05 20:57:36.462403
+PH_000369,46,Female,Married,145.25,Bachelor,Self-employed,544,2.4,2024-12-05 20:57:36.462403
+PH_000370,33,Female,Single,44.39,High School,Self-employed,614,1.9,2025-07-30 20:57:36.462403
+PH_000371,45,Male,Single,72.39,Bachelor,Self-employed,526,5.7,2025-08-13 20:57:36.462403
+PH_000372,52,Female,Married,34.6,Master,Unemployed,745,1.7,2024-12-18 20:57:36.462403
+PH_000373,66,Male,Married,20.0,Bachelor,Employed,818,4.3,2025-06-02 20:57:36.462403
+PH_000374,59,Female,Married,67.77,High School,Employed,816,0.3,2025-01-03 20:57:36.462403
+PH_000375,77,Male,Married,20.0,PhD,Employed,772,1.1,2025-05-07 20:57:36.462403
+PH_000376,33,Female,Married,51.68,Bachelor,Retired,630,2.6,2025-07-14 20:57:36.462403
+PH_000377,58,Female,Married,20.0,Bachelor,Employed,613,13.8,2025-03-25 20:57:36.462403
+PH_000378,47,Female,Single,267.69,High School,Self-employed,482,2.4,2025-08-15 20:57:36.462403
+PH_000379,77,Female,Divorced,113.19,Master,Self-employed,850,5.5,2025-05-17 20:57:36.462403
+PH_000380,32,Male,Single,59.42,Bachelor,Employed,696,1.5,2025-03-14 20:57:36.462403
+PH_000381,32,Male,Married,150.05,Master,Employed,600,0.7,2025-04-27 20:57:36.462403
+PH_000382,36,Male,Single,27.74,Master,Employed,782,0.3,2025-07-01 20:57:36.462403
+PH_000383,18,Male,Single,84.33,High School,Employed,552,1.8,2025-02-07 20:57:36.462403
+PH_000384,37,Female,Married,64.06,Bachelor,Employed,690,0.9,2024-12-15 20:57:36.462403
+PH_000385,33,Male,Single,67.44,Master,Employed,632,1.0,2024-09-24 20:57:36.462403
+PH_000386,47,Female,Divorced,151.09,High School,Unemployed,713,7.2,2025-04-18 20:57:36.462403
+PH_000387,50,Female,Single,98.1,Master,Retired,643,0.1,2024-11-10 20:57:36.462403
+PH_000388,73,Female,Married,68.78,Master,Employed,504,4.1,2024-10-20 20:57:36.462403
+PH_000389,59,Male,Married,20.0,Bachelor,Employed,657,2.4,2024-12-23 20:57:36.462403
+PH_000390,36,Female,Single,25.33,Bachelor,Employed,754,3.5,2025-09-15 20:57:36.462403
+PH_000391,31,Female,Single,49.49,Master,Self-employed,647,4.1,2024-10-13 20:57:36.462403
+PH_000392,52,Male,Married,58.83,Master,Unemployed,727,1.9,2024-12-10 20:57:36.462403
+PH_000393,25,Female,Married,22.11,High School,Employed,545,1.7,2025-04-19 20:57:36.462403
+PH_000394,72,Female,Married,375.91,High School,Employed,647,6.6,2024-10-15 20:57:36.462403
+PH_000395,62,Male,Married,183.67,Bachelor,Self-employed,587,10.3,2025-07-28 20:57:36.462403
+PH_000396,37,Male,Married,88.38,Bachelor,Self-employed,724,1.1,2025-07-13 20:57:36.462403
+PH_000397,19,Male,Single,57.84,Bachelor,Employed,653,0.5,2025-05-07 20:57:36.462403
+PH_000398,65,Male,Married,46.07,Bachelor,Self-employed,719,11.4,2025-07-22 20:57:36.462403
+PH_000399,43,Male,Widowed,25.49,High School,Employed,758,2.2,2025-07-27 20:57:36.462403
+PH_000400,63,Male,Married,58.09,Bachelor,Employed,719,4.0,2024-12-10 20:57:36.462403
+PH_000401,21,Male,Married,67.1,High School,Self-employed,677,2.2,2025-07-02 20:57:36.462403
+PH_000402,36,Male,Married,20.22,Bachelor,Unemployed,550,0.7,2025-05-03 20:57:36.462403
+PH_000403,45,Female,Married,71.33,Bachelor,Employed,649,4.4,2025-04-28 20:57:36.462403
+PH_000404,45,Female,Married,48.22,High School,Retired,596,3.7,2024-11-14 20:57:36.462403
+PH_000405,38,Female,Married,20.0,High School,Employed,615,1.1,2025-06-04 20:57:36.462403
+PH_000406,54,Male,Widowed,27.43,Bachelor,Self-employed,612,3.0,2025-03-28 20:57:36.462403
+PH_000407,28,Male,Single,39.22,Bachelor,Employed,552,8.0,2025-06-07 20:57:36.462403
+PH_000408,42,Male,Single,247.19,High School,Unemployed,454,4.5,2024-10-03 20:57:36.462403
+PH_000409,46,Male,Married,85.22,PhD,Retired,583,0.5,2024-10-30 20:57:36.462403
+PH_000410,52,Male,Divorced,20.0,Bachelor,Employed,669,4.0,2025-05-07 20:57:36.462403
+PH_000411,55,Female,Single,80.55,PhD,Retired,515,6.1,2025-01-04 20:57:36.462403
+PH_000412,28,Male,Single,20.0,Bachelor,Unemployed,651,7.9,2025-01-12 20:57:36.462403
+PH_000413,21,Female,Single,129.82,Bachelor,Self-employed,840,5.0,2025-05-14 20:57:36.462403
+PH_000414,64,Female,Single,37.45,Master,Employed,752,0.8,2025-08-24 20:57:36.462403
+PH_000415,49,Male,Married,50.66,Bachelor,Unemployed,814,6.2,2025-08-03 20:57:36.462403
+PH_000416,33,Male,Married,157.69,Bachelor,Unemployed,689,5.7,2024-10-30 20:57:36.462403
+PH_000417,68,Female,Married,20.0,High School,Employed,766,0.1,2025-02-15 20:57:36.462403
+PH_000418,46,Male,Married,20.0,Bachelor,Retired,577,2.7,2025-05-01 20:57:36.462403
+PH_000419,62,Male,Single,34.23,High School,Employed,585,2.0,2025-08-28 20:57:36.462403
+PH_000420,46,Female,Single,125.3,High School,Employed,376,5.5,2025-09-18 20:57:36.462403
+PH_000421,75,Male,Married,20.0,High School,Employed,768,1.2,2025-04-02 20:57:36.462403
+PH_000422,71,Female,Widowed,20.0,High School,Employed,804,4.5,2025-07-15 20:57:36.462403
+PH_000423,41,Female,Divorced,38.06,PhD,Self-employed,594,12.2,2024-10-28 20:57:36.462403
+PH_000424,59,Male,Single,84.89,High School,Employed,624,8.0,2025-05-08 20:57:36.462403
+PH_000425,54,Male,Divorced,142.62,Bachelor,Retired,574,12.7,2025-06-29 20:57:36.462403
+PH_000426,65,Male,Married,37.69,Master,Employed,688,19.2,2025-02-05 20:57:36.462403
+PH_000427,30,Male,Married,39.29,Bachelor,Employed,762,0.1,2024-12-11 20:57:36.462403
+PH_000428,55,Male,Married,137.43,High School,Employed,475,4.9,2024-09-23 20:57:36.462403
+PH_000429,60,Female,Married,20.0,Bachelor,Employed,690,2.7,2025-02-13 20:57:36.462403
+PH_000430,18,Male,Married,40.01,Bachelor,Retired,622,9.8,2024-12-06 20:57:36.462403
+PH_000431,27,Male,Single,63.58,Bachelor,Self-employed,661,1.5,2025-09-15 20:57:36.462403
+PH_000432,18,Female,Single,78.21,Master,Unemployed,695,19.8,2025-07-24 20:57:36.462403
+PH_000433,40,Female,Single,36.31,PhD,Employed,631,4.8,2025-08-12 20:57:36.462403
+PH_000434,55,Female,Married,56.12,Bachelor,Employed,639,7.9,2024-10-01 20:57:36.462403
+PH_000435,67,Male,Married,20.0,High School,Employed,628,0.4,2025-07-05 20:57:36.462403
+PH_000436,46,Female,Married,32.25,Bachelor,Employed,747,1.0,2024-12-14 20:57:36.462403
+PH_000437,69,Female,Single,78.48,High School,Employed,691,7.1,2025-09-01 20:57:36.462403
+PH_000438,24,Male,Widowed,24.88,Master,Self-employed,672,0.1,2025-03-14 20:57:36.462403
+PH_000439,19,Male,Divorced,57.24,High School,Employed,522,8.5,2024-11-25 20:57:36.462403
+PH_000440,44,Female,Married,78.06,High School,Self-employed,612,0.1,2024-12-11 20:57:36.462403
+PH_000441,50,Male,Widowed,41.51,Master,Employed,739,5.4,2025-07-06 20:57:36.462403
+PH_000442,44,Male,Married,62.58,Bachelor,Employed,653,2.3,2025-02-11 20:57:36.462403
+PH_000443,18,Male,Widowed,25.27,High School,Self-employed,715,4.7,2025-07-16 20:57:36.462403
+PH_000444,43,Male,Single,46.28,Bachelor,Employed,826,6.0,2025-08-29 20:57:36.462403
+PH_000445,25,Female,Married,88.96,Master,Unemployed,753,2.1,2025-04-15 20:57:36.462403
+PH_000446,55,Female,Single,61.9,High School,Self-employed,659,0.6,2025-03-17 20:57:36.462403
+PH_000447,50,Female,Single,34.15,Master,Employed,598,0.4,2025-08-30 20:57:36.462403
+PH_000448,30,Male,Single,65.32,High School,Retired,394,4.4,2025-03-20 20:57:36.462403
+PH_000449,37,Male,Married,96.71,Master,Employed,633,3.7,2025-06-04 20:57:36.462403
+PH_000450,29,Male,Married,20.0,Master,Employed,617,6.8,2024-10-05 20:57:36.462403
+PH_000451,44,Male,Married,138.0,High School,Self-employed,689,3.6,2025-05-15 20:57:36.462403
+PH_000452,59,Male,Single,41.72,Bachelor,Employed,634,2.7,2024-10-13 20:57:36.462403
+PH_000453,30,Female,Divorced,76.74,High School,Unemployed,617,2.5,2025-07-29 20:57:36.462403
+PH_000454,52,Male,Married,142.28,Bachelor,Unemployed,472,0.1,2025-03-22 20:57:36.462403
+PH_000455,37,Female,Married,20.0,Bachelor,Retired,556,2.0,2024-12-07 20:57:36.462403
+PH_000456,33,Male,Married,30.95,Bachelor,Employed,697,18.7,2025-02-23 20:57:36.462403
+PH_000457,43,Male,Single,43.34,High School,Employed,821,10.3,2024-11-06 20:57:36.462403
+PH_000458,29,Male,Married,29.17,High School,Self-employed,640,2.0,2025-07-02 20:57:36.462403
+PH_000459,36,Female,Divorced,218.75,High School,Employed,682,4.4,2025-05-21 20:57:36.462403
+PH_000460,27,Female,Single,27.51,High School,Employed,745,9.4,2025-06-28 20:57:36.462403
+PH_000461,74,Female,Married,35.01,Bachelor,Employed,568,2.9,2025-06-21 20:57:36.462403
+PH_000462,45,Male,Divorced,64.3,Master,Employed,686,0.1,2025-02-20 20:57:36.462403
+PH_000463,34,Male,Married,20.87,Bachelor,Employed,575,0.4,2025-09-07 20:57:36.462403
+PH_000464,48,Female,Single,39.78,Bachelor,Unemployed,736,3.6,2025-06-20 20:57:36.462403
+PH_000465,43,Male,Single,70.38,PhD,Unemployed,665,17.4,2025-04-02 20:57:36.462403
+PH_000466,41,Female,Single,41.83,Bachelor,Employed,679,5.9,2025-02-21 20:57:36.462403
+PH_000467,54,Male,Married,50.67,Master,Employed,571,0.4,2024-10-12 20:57:36.462403
+PH_000468,56,Male,Married,35.75,Bachelor,Employed,720,1.0,2025-05-15 20:57:36.462403
+PH_000469,37,Male,Single,20.0,High School,Unemployed,850,7.4,2025-05-06 20:57:36.462403
+PH_000470,36,Male,Widowed,70.62,High School,Employed,549,9.2,2025-06-30 20:57:36.462403
+PH_000471,40,Female,Married,222.28,Bachelor,Self-employed,616,4.8,2024-09-25 20:57:36.462403
+PH_000472,18,Male,Single,55.41,High School,Employed,673,5.2,2025-07-26 20:57:36.462403
+PH_000473,22,Male,Married,65.38,High School,Self-employed,728,0.1,2025-03-08 20:57:36.462403
+PH_000474,65,Male,Married,95.03,Bachelor,Employed,594,8.8,2025-08-31 20:57:36.462403
+PH_000475,69,Male,Single,20.0,Bachelor,Self-employed,366,7.8,2025-01-22 20:57:36.462403
+PH_000476,41,Female,Single,213.15,Bachelor,Employed,785,1.5,2025-05-29 20:57:36.462403
+PH_000477,53,Female,Divorced,64.19,High School,Self-employed,726,6.2,2025-06-09 20:57:36.462403
+PH_000478,49,Female,Married,201.44,High School,Employed,475,1.2,2025-01-27 20:57:36.462403
+PH_000479,80,Female,Married,30.37,Bachelor,Self-employed,589,0.2,2025-03-24 20:57:36.462403
+PH_000480,61,Male,Married,233.8,PhD,Unemployed,806,1.1,2025-04-16 20:57:36.462403
+PH_000481,43,Female,Single,101.51,Bachelor,Employed,794,1.0,2025-05-26 20:57:36.462403
+PH_000482,30,Male,Single,84.98,Master,Unemployed,743,2.1,2025-05-28 20:57:36.462403
+PH_000483,20,Male,Married,65.84,Master,Employed,632,2.7,2025-09-07 20:57:36.462403
+PH_000484,48,Female,Single,44.75,Bachelor,Employed,658,3.6,2024-10-17 20:57:36.462403
+PH_000485,33,Male,Single,142.65,High School,Employed,636,3.2,2025-06-13 20:57:36.462403
+PH_000486,23,Female,Divorced,61.09,Bachelor,Employed,762,1.6,2025-02-27 20:57:36.462403
+PH_000487,35,Male,Widowed,20.0,Bachelor,Self-employed,562,0.1,2025-04-04 20:57:36.462403
+PH_000488,28,Female,Married,22.34,Bachelor,Self-employed,569,4.6,2025-04-30 20:57:36.462403
+PH_000489,70,Female,Divorced,47.06,Bachelor,Employed,751,2.5,2025-08-15 20:57:36.462403
+PH_000490,58,Female,Single,69.97,Bachelor,Employed,645,1.8,2025-04-30 20:57:36.462403
+PH_000491,44,Female,Widowed,52.18,High School,Unemployed,787,10.1,2025-03-24 20:57:36.462403
+PH_000492,67,Female,Single,144.77,Bachelor,Retired,582,6.9,2024-10-26 20:57:36.462403
+PH_000493,46,Male,Widowed,20.0,High School,Employed,644,9.8,2025-01-02 20:57:36.462403
+PH_000494,32,Male,Widowed,61.24,Master,Retired,557,3.4,2025-02-27 20:57:36.462403
+PH_000495,67,Male,Married,20.0,High School,Employed,650,0.7,2024-10-07 20:57:36.462403
+PH_000496,53,Female,Widowed,100.26,High School,Employed,502,6.0,2024-12-19 20:57:36.462403
+PH_000497,29,Male,Married,50.62,Bachelor,Unemployed,601,1.2,2025-04-03 20:57:36.462403
+PH_000498,42,Female,Single,76.38,Bachelor,Employed,506,2.9,2025-09-05 20:57:36.462403
+PH_000499,31,Male,Married,27.35,Bachelor,Employed,719,0.3,2025-07-22 20:57:36.462403
+PH_000500,24,Male,Married,151.95,High School,Employed,721,8.7,2025-05-09 20:57:36.462403
+PH_000501,58,Female,Single,125.63,Bachelor,Unemployed,476,0.7,2025-06-20 20:57:36.462403
+PH_000502,73,Male,Married,87.08,High School,Unemployed,783,11.7,2024-11-26 20:57:36.462403
+PH_000503,24,Male,Widowed,49.22,Master,Employed,850,10.0,2025-05-07 20:57:36.462403
+PH_000504,53,Male,Single,86.82,Master,Employed,654,3.1,2025-08-31 20:57:36.462403
+PH_000505,35,Female,Married,31.02,Bachelor,Employed,585,6.8,2025-07-26 20:57:36.462403
+PH_000506,37,Female,Divorced,108.25,High School,Employed,850,4.8,2024-11-18 20:57:36.462403
+PH_000507,36,Male,Divorced,204.3,Bachelor,Employed,518,8.1,2025-02-09 20:57:36.462403
+PH_000508,32,Male,Widowed,128.57,High School,Self-employed,652,2.8,2025-03-27 20:57:36.462403
+PH_000509,45,Male,Married,30.46,Bachelor,Employed,667,7.7,2025-04-12 20:57:36.462403
+PH_000510,32,Female,Widowed,72.9,High School,Employed,784,3.1,2025-02-08 20:57:36.462403
+PH_000511,49,Female,Married,20.0,Master,Employed,685,14.1,2024-11-13 20:57:36.462403
+PH_000512,44,Male,Single,86.31,High School,Employed,600,3.3,2025-01-01 20:57:36.462403
+PH_000513,41,Male,Married,78.29,Bachelor,Retired,554,3.1,2025-07-22 20:57:36.462403
+PH_000514,31,Male,Married,20.0,Bachelor,Employed,615,7.7,2025-03-06 20:57:36.462403
+PH_000515,36,Female,Single,21.55,Bachelor,Employed,549,8.6,2024-11-28 20:57:36.462403
+PH_000516,56,Female,Married,43.53,High School,Employed,654,4.0,2025-06-14 20:57:36.462403
+PH_000517,52,Male,Married,42.92,PhD,Employed,593,1.0,2025-05-12 20:57:36.462403
+PH_000518,30,Male,Single,20.75,Bachelor,Employed,500,3.2,2025-08-28 20:57:36.462403
+PH_000519,46,Male,Married,74.53,Bachelor,Employed,775,17.2,2024-09-22 20:57:36.462403
+PH_000520,56,Female,Married,66.76,High School,Employed,600,7.0,2025-02-08 20:57:36.462403
+PH_000521,19,Male,Married,46.74,Bachelor,Employed,523,8.3,2025-09-19 20:57:36.462403
+PH_000522,53,Female,Single,29.83,Bachelor,Employed,633,0.2,2024-12-27 20:57:36.462403
+PH_000523,35,Female,Single,126.34,High School,Employed,656,3.2,2024-12-18 20:57:36.462403
+PH_000524,53,Male,Married,205.27,High School,Retired,475,5.2,2024-10-03 20:57:36.462403
+PH_000525,33,Male,Divorced,37.08,Master,Employed,683,8.9,2024-10-11 20:57:36.462403
+PH_000526,18,Male,Single,33.46,High School,Employed,545,0.3,2025-06-11 20:57:36.462403
+PH_000527,20,Female,Married,80.88,High School,Employed,821,9.6,2025-03-17 20:57:36.462403
+PH_000528,45,Female,Single,41.0,Bachelor,Employed,702,4.0,2025-02-11 20:57:36.462403
+PH_000529,48,Female,Married,48.84,Master,Self-employed,610,1.1,2025-08-15 20:57:36.462403
+PH_000530,31,Female,Divorced,98.66,High School,Employed,575,1.9,2024-10-14 20:57:36.462403
+PH_000531,54,Male,Married,20.0,Bachelor,Self-employed,639,1.7,2025-04-03 20:57:36.462403
+PH_000532,20,Female,Single,156.75,High School,Employed,711,3.8,2024-11-04 20:57:36.462403
+PH_000533,44,Female,Married,57.87,High School,Employed,647,0.3,2025-04-12 20:57:36.462403
+PH_000534,26,Male,Single,39.28,High School,Self-employed,628,0.9,2024-10-15 20:57:36.462403
+PH_000535,35,Female,Married,50.84,Master,Employed,655,8.4,2025-07-18 20:57:36.462403
+PH_000536,45,Female,Married,52.98,High School,Employed,589,0.7,2025-04-19 20:57:36.462403
+PH_000537,32,Female,Single,20.0,High School,Employed,615,1.3,2025-01-03 20:57:36.462403
+PH_000538,39,Female,Single,180.54,Bachelor,Self-employed,441,3.0,2025-04-14 20:57:36.462403
+PH_000539,60,Female,Married,56.43,Master,Employed,747,3.6,2024-10-13 20:57:36.462403
+PH_000540,36,Female,Divorced,77.82,High School,Unemployed,679,7.2,2025-02-22 20:57:36.462403
+PH_000541,57,Male,Widowed,116.89,Bachelor,Employed,572,3.0,2025-04-05 20:57:36.462403
+PH_000542,28,Male,Single,24.12,High School,Unemployed,839,7.8,2025-02-25 20:57:36.462403
+PH_000543,52,Female,Married,79.74,Bachelor,Employed,658,4.8,2024-09-28 20:57:36.462403
+PH_000544,66,Male,Married,44.07,Bachelor,Self-employed,546,0.6,2025-04-21 20:57:36.462403
+PH_000545,18,Male,Married,107.49,Bachelor,Employed,735,0.8,2024-12-10 20:57:36.462403
+PH_000546,33,Male,Married,20.0,High School,Retired,689,2.9,2025-07-16 20:57:36.462403
+PH_000547,53,Male,Divorced,50.44,High School,Employed,689,2.5,2025-06-13 20:57:36.462403
+PH_000548,41,Female,Widowed,33.71,High School,Employed,607,6.8,2025-02-16 20:57:36.462403
+PH_000549,50,Female,Married,77.15,High School,Employed,695,4.3,2024-10-14 20:57:36.462403
+PH_000550,35,Male,Married,79.52,High School,Employed,623,2.5,2025-03-09 20:57:36.462403
+PH_000551,46,Male,Married,31.0,Master,Employed,705,0.9,2024-10-08 20:57:36.462403
+PH_000552,42,Male,Single,30.88,PhD,Retired,459,1.3,2025-06-22 20:57:36.462403
+PH_000553,62,Female,Married,49.97,PhD,Retired,606,4.3,2024-11-08 20:57:36.462403
+PH_000554,48,Female,Married,26.65,Master,Employed,822,2.8,2024-12-02 20:57:36.462403
+PH_000555,50,Male,Married,107.08,Bachelor,Retired,573,3.6,2025-04-18 20:57:36.462403
+PH_000556,38,Female,Single,40.64,Bachelor,Employed,589,0.9,2025-02-24 20:57:36.462403
+PH_000557,37,Female,Single,20.0,High School,Employed,605,5.4,2024-12-13 20:57:36.462403
+PH_000558,38,Female,Divorced,40.45,Bachelor,Self-employed,528,9.6,2025-09-19 20:57:36.462403
+PH_000559,50,Female,Single,23.79,Bachelor,Self-employed,429,1.5,2025-04-17 20:57:36.462403
+PH_000560,38,Male,Married,20.0,Bachelor,Retired,626,3.4,2025-04-26 20:57:36.462403
+PH_000561,49,Female,Single,20.29,Master,Employed,663,18.6,2025-06-04 20:57:36.462403
+PH_000562,76,Male,Single,59.59,High School,Self-employed,644,2.0,2025-02-11 20:57:36.462403
+PH_000563,58,Female,Single,158.05,High School,Employed,635,4.5,2024-11-27 20:57:36.462403
+PH_000564,40,Female,Single,70.14,Master,Employed,654,0.5,2024-11-13 20:57:36.462403
+PH_000565,63,Female,Divorced,33.61,High School,Employed,752,4.7,2024-10-19 20:57:36.462403
+PH_000566,38,Female,Single,78.63,Bachelor,Retired,630,0.5,2025-04-08 20:57:36.462403
+PH_000567,18,Male,Widowed,37.82,Master,Unemployed,592,16.0,2025-01-24 20:57:36.462403
+PH_000568,29,Female,Married,31.32,Bachelor,Self-employed,621,6.3,2025-02-05 20:57:36.462403
+PH_000569,18,Female,Married,21.68,Bachelor,Employed,707,7.8,2025-02-05 20:57:36.462403
+PH_000570,39,Female,Married,20.0,High School,Employed,791,6.1,2024-10-09 20:57:36.462403
+PH_000571,45,Male,Married,39.97,High School,Employed,587,4.5,2025-06-02 20:57:36.462403
+PH_000572,70,Male,Married,61.96,Master,Employed,659,3.0,2025-01-01 20:57:36.462403
+PH_000573,49,Male,Single,50.54,Bachelor,Employed,683,9.8,2025-01-20 20:57:36.462403
+PH_000574,41,Female,Married,39.14,Bachelor,Self-employed,550,15.7,2025-06-25 20:57:36.462403
+PH_000575,57,Female,Divorced,25.62,High School,Employed,652,3.5,2024-10-17 20:57:36.462403
+PH_000576,18,Male,Divorced,88.82,High School,Employed,503,13.4,2025-08-07 20:57:36.462403
+PH_000577,48,Male,Divorced,20.0,PhD,Employed,473,4.4,2025-04-27 20:57:36.462403
+PH_000578,56,Female,Married,101.58,High School,Employed,686,3.9,2024-12-30 20:57:36.462403
+PH_000579,22,Female,Married,24.49,Bachelor,Employed,611,3.0,2024-10-15 20:57:36.462403
+PH_000580,62,Female,Married,29.91,High School,Retired,670,1.2,2024-10-30 20:57:36.462403
+PH_000581,50,Female,Married,20.0,Bachelor,Self-employed,648,0.0,2024-11-06 20:57:36.462403
+PH_000582,38,Male,Single,36.56,Master,Unemployed,552,1.4,2025-04-01 20:57:36.462403
+PH_000583,54,Male,Married,119.13,Bachelor,Employed,645,3.6,2025-08-03 20:57:36.462403
+PH_000584,79,Female,Single,82.48,High School,Employed,526,2.4,2025-05-22 20:57:36.462403
+PH_000585,47,Female,Married,119.43,Bachelor,Employed,789,3.0,2024-10-10 20:57:36.462403
+PH_000586,48,Female,Divorced,82.91,Master,Unemployed,514,19.7,2025-04-14 20:57:36.462403
+PH_000587,38,Female,Single,22.58,Bachelor,Self-employed,630,2.2,2025-05-27 20:57:36.462403
+PH_000588,32,Female,Single,41.9,Master,Employed,545,3.0,2025-06-10 20:57:36.462403
+PH_000589,57,Male,Single,29.25,Bachelor,Employed,707,0.7,2025-07-06 20:57:36.462403
+PH_000590,32,Male,Divorced,158.29,Master,Employed,616,0.2,2025-09-07 20:57:36.462403
+PH_000591,46,Male,Married,20.96,Bachelor,Self-employed,598,7.5,2025-08-27 20:57:36.462403
+PH_000592,37,Male,Married,111.6,High School,Retired,735,4.2,2025-05-17 20:57:36.462403
+PH_000593,52,Female,Divorced,111.54,High School,Employed,652,7.2,2025-01-19 20:57:36.462403
+PH_000594,50,Female,Divorced,235.97,High School,Employed,701,0.8,2024-11-11 20:57:36.462403
+PH_000595,60,Male,Married,39.34,Master,Employed,551,4.2,2025-08-13 20:57:36.462403
+PH_000596,37,Male,Married,96.53,Master,Employed,509,1.5,2025-01-29 20:57:36.462403
+PH_000597,40,Female,Married,338.77,Bachelor,Employed,660,1.3,2025-02-19 20:57:36.462403
+PH_000598,30,Male,Married,33.31,High School,Employed,618,0.1,2024-11-01 20:57:36.462403
+PH_000599,38,Female,Single,20.0,High School,Self-employed,712,0.7,2024-11-29 20:57:36.462403
+PH_000600,50,Female,Divorced,20.0,Master,Self-employed,642,1.9,2025-06-12 20:57:36.462403
+PH_000601,56,Female,Married,96.56,Bachelor,Employed,670,0.6,2024-09-28 20:57:36.462403
+PH_000602,31,Male,Single,20.0,High School,Unemployed,487,21.3,2025-03-07 20:57:36.462403
+PH_000603,58,Male,Married,40.53,Bachelor,Employed,838,1.8,2025-01-09 20:57:36.462403
+PH_000604,65,Female,Single,77.47,High School,Employed,633,0.7,2025-02-27 20:57:36.462403
+PH_000605,51,Female,Single,63.32,High School,Employed,719,1.1,2025-05-18 20:57:36.462403
+PH_000606,73,Male,Married,76.73,Bachelor,Employed,566,4.4,2025-07-06 20:57:36.462403
+PH_000607,33,Female,Single,65.22,High School,Employed,680,0.3,2024-10-19 20:57:36.462403
+PH_000608,26,Male,Married,151.88,PhD,Employed,519,9.9,2024-10-02 20:57:36.462403
+PH_000609,18,Female,Married,25.49,High School,Employed,695,16.3,2025-09-17 20:57:36.462403
+PH_000610,67,Male,Single,31.77,High School,Retired,614,1.4,2025-07-27 20:57:36.462403
+PH_000611,54,Female,Widowed,29.43,High School,Employed,652,3.0,2025-02-14 20:57:36.462403
+PH_000612,44,Male,Single,106.08,Master,Employed,719,0.1,2025-05-30 20:57:36.462403
+PH_000613,49,Male,Married,112.2,Bachelor,Employed,526,5.1,2025-06-21 20:57:36.462403
+PH_000614,28,Male,Married,78.33,Bachelor,Self-employed,581,2.7,2024-09-28 20:57:36.462403
+PH_000615,80,Male,Single,140.72,High School,Employed,695,1.6,2024-12-28 20:57:36.462403
+PH_000616,46,Female,Single,21.28,High School,Unemployed,850,1.2,2025-01-25 20:57:36.462403
+PH_000617,46,Female,Married,207.22,Bachelor,Employed,636,5.3,2025-08-25 20:57:36.462403
+PH_000618,55,Male,Widowed,184.67,Master,Employed,709,2.7,2024-12-08 20:57:36.462403
+PH_000619,52,Male,Single,98.35,Master,Employed,639,1.0,2025-05-15 20:57:36.462403
+PH_000620,48,Female,Married,227.11,High School,Employed,844,5.8,2025-07-19 20:57:36.462403
+PH_000621,33,Female,Married,20.0,Bachelor,Employed,475,4.2,2025-01-29 20:57:36.462403
+PH_000622,52,Female,Divorced,35.89,Master,Employed,659,9.8,2025-07-13 20:57:36.462403
+PH_000623,73,Male,Married,30.32,High School,Employed,487,0.6,2025-01-25 20:57:36.462403
+PH_000624,65,Male,Married,97.24,Master,Employed,399,7.7,2024-10-13 20:57:36.462403
+PH_000625,68,Female,Married,23.57,High School,Employed,679,5.6,2024-12-22 20:57:36.462403
+PH_000626,37,Male,Married,100.08,Master,Retired,663,0.6,2024-12-07 20:57:36.462403
+PH_000627,30,Female,Divorced,163.44,Master,Employed,621,5.9,2024-11-19 20:57:36.462403
+PH_000628,43,Male,Single,95.22,Master,Unemployed,639,2.9,2025-04-10 20:57:36.462403
+PH_000629,45,Female,Married,68.51,Bachelor,Self-employed,850,14.5,2025-02-05 20:57:36.462403
+PH_000630,61,Male,Divorced,24.77,High School,Employed,624,0.8,2024-11-10 20:57:36.462403
+PH_000631,19,Female,Divorced,27.73,Master,Employed,701,5.1,2025-01-04 20:57:36.462403
+PH_000632,67,Male,Widowed,148.37,High School,Employed,585,2.4,2025-02-13 20:57:36.462403
+PH_000633,42,Female,Married,101.85,High School,Self-employed,679,15.7,2024-12-13 20:57:36.462403
+PH_000634,38,Male,Married,52.92,Bachelor,Self-employed,626,2.0,2025-02-03 20:57:36.462403
+PH_000635,29,Female,Married,39.08,Master,Self-employed,608,16.4,2025-06-30 20:57:36.462403
+PH_000636,20,Female,Married,20.0,Master,Retired,831,11.6,2025-01-19 20:57:36.462403
+PH_000637,57,Female,Single,23.18,High School,Self-employed,767,1.6,2025-02-01 20:57:36.462403
+PH_000638,46,Female,Married,251.93,Master,Employed,663,8.1,2025-05-10 20:57:36.462403
+PH_000639,25,Female,Married,20.0,Bachelor,Employed,419,27.1,2025-05-16 20:57:36.462403
+PH_000640,25,Female,Single,63.53,High School,Unemployed,613,1.5,2024-10-28 20:57:36.462403
+PH_000641,39,Male,Married,122.24,High School,Employed,850,2.9,2025-05-01 20:57:36.462403
+PH_000642,70,Female,Married,20.01,High School,Employed,626,3.7,2024-12-27 20:57:36.462403
+PH_000643,41,Male,Widowed,63.29,High School,Self-employed,760,1.7,2025-01-14 20:57:36.462403
+PH_000644,22,Male,Single,115.62,PhD,Employed,794,0.1,2024-11-03 20:57:36.462403
+PH_000645,41,Male,Single,55.15,Bachelor,Retired,671,1.2,2025-05-20 20:57:36.462403
+PH_000646,40,Male,Married,500.0,Bachelor,Self-employed,565,1.7,2025-05-02 20:57:36.462403
+PH_000647,18,Female,Single,20.0,PhD,Employed,406,2.9,2025-02-06 20:57:36.462403
+PH_000648,44,Female,Married,127.36,High School,Retired,718,0.9,2025-08-11 20:57:36.462403
+PH_000649,41,Female,Married,47.55,Master,Employed,568,10.3,2025-04-26 20:57:36.462403
+PH_000650,55,Male,Single,101.24,Bachelor,Employed,667,6.1,2025-05-22 20:57:36.462403
+PH_000651,72,Male,Married,77.71,Master,Employed,525,0.4,2025-05-03 20:57:36.462403
+PH_000652,61,Male,Married,30.37,High School,Employed,623,5.3,2025-04-01 20:57:36.462403
+PH_000653,40,Male,Married,65.58,Master,Employed,653,5.3,2025-04-09 20:57:36.462403
+PH_000654,28,Male,Divorced,20.0,High School,Employed,676,15.6,2024-12-17 20:57:36.462403
+PH_000655,80,Male,Divorced,88.46,High School,Employed,538,0.0,2025-08-09 20:57:36.462403
+PH_000656,45,Male,Married,69.31,Master,Employed,769,1.4,2025-07-11 20:57:36.462403
+PH_000657,45,Female,Married,91.01,High School,Self-employed,590,13.1,2025-07-04 20:57:36.462403
+PH_000658,44,Female,Married,127.29,Bachelor,Unemployed,482,13.5,2025-05-24 20:57:36.462403
+PH_000659,47,Female,Divorced,73.27,Bachelor,Employed,639,6.4,2025-03-07 20:57:36.462403
+PH_000660,42,Female,Married,61.47,Bachelor,Employed,653,7.3,2024-09-29 20:57:36.462403
+PH_000661,36,Female,Married,26.98,High School,Employed,666,0.5,2025-07-03 20:57:36.462403
+PH_000662,36,Male,Divorced,30.88,High School,Employed,786,3.6,2024-09-23 20:57:36.462403
+PH_000663,44,Female,Single,141.09,High School,Self-employed,626,1.3,2025-06-02 20:57:36.462403
+PH_000664,36,Female,Divorced,172.27,Bachelor,Self-employed,638,1.0,2025-08-18 20:57:36.462403
+PH_000665,34,Male,Single,45.13,High School,Employed,539,8.3,2025-02-19 20:57:36.462403
+PH_000666,46,Male,Married,56.64,High School,Employed,732,0.7,2025-02-23 20:57:36.462403
+PH_000667,41,Female,Married,26.48,High School,Employed,668,3.2,2025-04-03 20:57:36.462403
+PH_000668,67,Male,Widowed,139.52,High School,Self-employed,607,13.9,2024-12-16 20:57:36.462403
+PH_000669,18,Female,Divorced,92.98,Bachelor,Employed,459,1.0,2025-01-24 20:57:36.462403
+PH_000670,61,Female,Married,258.0,Master,Retired,794,19.1,2025-02-19 20:57:36.462403
+PH_000671,63,Male,Married,27.04,High School,Self-employed,527,25.8,2025-08-19 20:57:36.462403
+PH_000672,18,Male,Married,40.35,Bachelor,Employed,590,4.1,2025-06-06 20:57:36.462403
+PH_000673,39,Male,Divorced,65.7,Bachelor,Employed,685,0.9,2025-02-16 20:57:36.462403
+PH_000674,39,Male,Married,91.58,Bachelor,Retired,530,1.9,2025-03-04 20:57:36.462403
+PH_000675,23,Male,Married,45.95,Bachelor,Employed,500,2.8,2024-11-24 20:57:36.462403
+PH_000676,33,Female,Single,27.16,Bachelor,Employed,437,1.9,2024-09-28 20:57:36.462403
+PH_000677,28,Male,Married,110.51,Bachelor,Employed,722,1.6,2025-09-09 20:57:36.462403
+PH_000678,71,Male,Married,97.21,High School,Unemployed,595,17.9,2024-11-29 20:57:36.462403
+PH_000679,59,Male,Married,26.23,Bachelor,Self-employed,850,0.8,2025-03-09 20:57:36.462403
+PH_000680,64,Female,Single,161.48,Bachelor,Self-employed,550,6.6,2025-01-18 20:57:36.462403
+PH_000681,55,Male,Divorced,139.23,High School,Unemployed,557,0.0,2025-09-16 20:57:36.462403
+PH_000682,28,Male,Single,60.79,High School,Unemployed,593,4.5,2025-03-23 20:57:36.462403
+PH_000683,37,Female,Married,58.19,PhD,Retired,674,12.4,2025-04-20 20:57:36.462403
+PH_000684,52,Female,Widowed,85.05,Bachelor,Employed,602,1.7,2025-03-04 20:57:36.462403
+PH_000685,26,Male,Married,27.4,Bachelor,Employed,711,1.0,2025-02-17 20:57:36.462403
+PH_000686,55,Female,Single,55.93,Master,Self-employed,552,5.3,2024-12-18 20:57:36.462403
+PH_000687,41,Male,Married,20.0,Bachelor,Self-employed,511,6.2,2024-12-14 20:57:36.462403
+PH_000688,39,Male,Divorced,110.08,Bachelor,Self-employed,470,5.8,2024-11-15 20:57:36.462403
+PH_000689,55,Male,Married,20.0,Master,Employed,427,1.9,2025-05-30 20:57:36.462403
+PH_000690,51,Male,Widowed,181.77,Master,Self-employed,598,1.5,2025-01-13 20:57:36.462403
+PH_000691,39,Female,Single,41.93,Bachelor,Self-employed,619,15.6,2025-05-30 20:57:36.462403
+PH_000692,62,Male,Married,46.09,Bachelor,Employed,586,12.8,2025-05-03 20:57:36.462403
+PH_000693,28,Male,Married,33.04,High School,Employed,774,3.1,2025-02-08 20:57:36.462403
+PH_000694,54,Female,Divorced,43.36,PhD,Employed,772,9.4,2025-01-14 20:57:36.462403
+PH_000695,53,Female,Single,169.83,Bachelor,Employed,616,3.0,2025-09-05 20:57:36.462403
+PH_000696,40,Male,Divorced,20.0,High School,Employed,470,2.8,2025-03-04 20:57:36.462403
+PH_000697,49,Female,Married,151.65,Master,Employed,593,0.9,2025-03-31 20:57:36.462403
+PH_000698,26,Male,Married,71.55,Bachelor,Employed,590,2.8,2024-10-12 20:57:36.462403
+PH_000699,58,Female,Single,20.79,High School,Self-employed,584,3.9,2024-10-07 20:57:36.462403
+PH_000700,42,Female,Divorced,23.1,Bachelor,Self-employed,580,0.1,2025-02-24 20:57:36.462403
+PH_000701,37,Female,Single,208.75,Bachelor,Unemployed,584,2.9,2025-06-27 20:57:36.462403
+PH_000702,60,Male,Married,25.63,Master,Employed,611,7.6,2025-01-23 20:57:36.462403
+PH_000703,34,Male,Single,21.7,High School,Employed,586,5.7,2025-07-16 20:57:36.462403
+PH_000704,23,Male,Divorced,135.62,Master,Unemployed,670,5.0,2024-11-05 20:57:36.462403
+PH_000705,21,Male,Married,71.58,Bachelor,Employed,686,12.0,2024-12-20 20:57:36.462403
+PH_000706,54,Male,Married,25.78,High School,Retired,558,0.1,2025-09-06 20:57:36.462403
+PH_000707,25,Female,Single,64.93,PhD,Unemployed,777,4.1,2025-03-02 20:57:36.462403
+PH_000708,71,Male,Married,24.03,Bachelor,Employed,551,7.7,2024-11-20 20:57:36.462403
+PH_000709,18,Male,Married,131.72,High School,Retired,488,3.9,2024-12-05 20:57:36.462403
+PH_000710,70,Female,Divorced,127.63,Bachelor,Employed,688,2.0,2024-10-15 20:57:36.462403
+PH_000711,48,Male,Divorced,83.56,Master,Employed,568,0.7,2025-09-06 20:57:36.462403
+PH_000712,43,Female,Single,72.92,High School,Self-employed,682,10.9,2025-08-08 20:57:36.462403
+PH_000713,36,Male,Married,223.4,High School,Employed,409,3.2,2024-10-25 20:57:36.462403
+PH_000714,50,Male,Single,54.58,High School,Retired,789,10.5,2025-02-12 20:57:36.462403
+PH_000715,44,Male,Married,21.21,High School,Employed,717,4.4,2025-07-12 20:57:36.462403
+PH_000716,61,Male,Single,78.22,Master,Employed,499,5.6,2025-01-26 20:57:36.462403
+PH_000717,46,Female,Married,289.7,Bachelor,Employed,502,8.2,2025-06-18 20:57:36.462403
+PH_000718,47,Male,Married,24.24,High School,Self-employed,817,5.4,2025-08-25 20:57:36.462403
+PH_000719,39,Female,Married,40.89,High School,Employed,576,2.5,2025-05-09 20:57:36.462403
+PH_000720,44,Male,Married,76.18,High School,Employed,566,3.6,2025-03-09 20:57:36.462403
+PH_000721,49,Male,Married,52.29,Master,Unemployed,423,8.1,2025-04-05 20:57:36.462403
+PH_000722,19,Female,Married,24.88,High School,Employed,614,2.3,2025-06-03 20:57:36.462403
+PH_000723,24,Male,Single,133.95,PhD,Unemployed,627,2.5,2025-01-30 20:57:36.462403
+PH_000724,56,Female,Married,349.34,Bachelor,Employed,721,0.5,2025-04-05 20:57:36.462403
+PH_000725,47,Female,Single,63.87,High School,Self-employed,510,12.3,2025-03-31 20:57:36.462403
+PH_000726,42,Female,Married,26.49,Master,Self-employed,497,0.5,2025-03-09 20:57:36.462403
+PH_000727,45,Female,Married,20.0,Bachelor,Employed,695,5.2,2025-04-30 20:57:36.462403
+PH_000728,50,Male,Married,67.11,Bachelor,Employed,750,2.7,2025-02-16 20:57:36.462403
+PH_000729,36,Male,Single,132.04,PhD,Unemployed,492,2.6,2025-05-13 20:57:36.462403
+PH_000730,33,Male,Married,79.85,High School,Employed,758,5.7,2025-08-09 20:57:36.462403
+PH_000731,47,Female,Divorced,54.49,High School,Retired,653,0.3,2025-01-22 20:57:36.462403
+PH_000732,30,Female,Married,34.08,Bachelor,Employed,759,4.5,2025-09-10 20:57:36.462403
+PH_000733,51,Male,Married,22.79,High School,Employed,642,7.4,2024-12-17 20:57:36.462403
+PH_000734,19,Female,Married,106.46,High School,Employed,397,8.8,2025-08-24 20:57:36.462403
+PH_000735,60,Male,Single,113.41,High School,Retired,634,0.9,2025-03-24 20:57:36.462403
+PH_000736,52,Female,Married,20.0,High School,Employed,756,11.4,2025-05-28 20:57:36.462403
+PH_000737,48,Male,Married,194.78,Master,Unemployed,560,5.3,2024-10-22 20:57:36.462403
+PH_000738,59,Female,Single,86.42,High School,Unemployed,611,10.7,2025-08-15 20:57:36.462403
+PH_000739,69,Female,Single,167.28,Bachelor,Employed,632,3.3,2024-10-21 20:57:36.462403
+PH_000740,60,Male,Single,20.0,Bachelor,Employed,360,3.9,2025-08-30 20:57:36.462403
+PH_000741,18,Male,Married,20.0,Bachelor,Self-employed,817,12.6,2025-09-04 20:57:36.462403
+PH_000742,25,Male,Widowed,48.46,High School,Employed,559,11.5,2025-05-16 20:57:36.462403
+PH_000743,35,Male,Single,81.63,Master,Self-employed,700,3.0,2025-06-09 20:57:36.462403
+PH_000744,45,Male,Married,229.77,High School,Employed,641,1.6,2025-09-09 20:57:36.462403
+PH_000745,52,Female,Single,96.05,Master,Employed,775,2.5,2024-11-05 20:57:36.462403
+PH_000746,34,Female,Widowed,44.96,Master,Self-employed,690,2.5,2025-07-03 20:57:36.462403
+PH_000747,47,Female,Single,24.02,Bachelor,Employed,626,1.7,2025-05-20 20:57:36.462403
+PH_000748,33,Male,Married,146.06,Bachelor,Employed,560,1.6,2025-07-17 20:57:36.462403
+PH_000749,35,Female,Married,25.24,Bachelor,Employed,729,9.9,2025-01-20 20:57:36.462403
+PH_000750,23,Female,Married,200.89,High School,Employed,462,0.4,2024-10-12 20:57:36.462403
+PH_000751,31,Male,Married,43.49,Master,Employed,714,5.7,2025-07-23 20:57:36.462403
+PH_000752,24,Female,Married,194.9,Master,Unemployed,540,0.9,2024-12-05 20:57:36.462403
+PH_000753,30,Female,Married,93.99,High School,Employed,775,2.1,2025-05-31 20:57:36.462403
+PH_000754,60,Male,Single,48.93,Bachelor,Employed,666,0.3,2025-01-24 20:57:36.462403
+PH_000755,30,Male,Single,36.03,Master,Self-employed,714,1.6,2024-09-26 20:57:36.462403
+PH_000756,80,Male,Married,41.57,PhD,Employed,658,7.3,2025-05-11 20:57:36.462403
+PH_000757,52,Male,Single,76.91,Bachelor,Employed,474,10.8,2025-03-15 20:57:36.462403
+PH_000758,47,Female,Single,58.07,Bachelor,Retired,563,1.3,2025-06-26 20:57:36.462403
+PH_000759,32,Female,Married,33.95,High School,Self-employed,717,3.1,2024-11-13 20:57:36.462403
+PH_000760,55,Female,Widowed,47.82,PhD,Employed,666,3.2,2024-11-13 20:57:36.462403
+PH_000761,36,Male,Married,58.14,High School,Self-employed,768,10.3,2025-07-23 20:57:36.462403
+PH_000762,46,Male,Single,20.0,Bachelor,Employed,690,7.2,2025-06-28 20:57:36.462403
+PH_000763,80,Female,Single,78.77,High School,Self-employed,553,3.6,2025-04-13 20:57:36.462403
+PH_000764,43,Female,Widowed,24.93,High School,Employed,570,5.6,2025-07-26 20:57:36.462403
+PH_000765,62,Male,Single,21.7,Bachelor,Employed,660,9.4,2024-11-27 20:57:36.462403
+PH_000766,34,Male,Single,20.0,PhD,Employed,418,0.0,2025-09-06 20:57:36.462403
+PH_000767,44,Female,Married,20.0,High School,Employed,817,2.6,2025-04-13 20:57:36.462403
+PH_000768,71,Male,Married,20.0,Bachelor,Employed,694,11.9,2024-11-29 20:57:36.462403
+PH_000769,35,Male,Married,30.96,High School,Retired,772,6.7,2024-10-08 20:57:36.462403
+PH_000770,72,Female,Single,260.5,High School,Employed,491,3.9,2025-03-11 20:57:36.462403
+PH_000771,55,Male,Single,35.85,Bachelor,Employed,774,3.8,2025-02-28 20:57:36.462403
+PH_000772,36,Male,Widowed,62.94,Bachelor,Employed,850,2.1,2025-06-10 20:57:36.462403
+PH_000773,54,Male,Single,75.22,High School,Employed,517,3.7,2025-08-12 20:57:36.462403
+PH_000774,59,Male,Married,60.63,High School,Self-employed,727,5.3,2024-11-20 20:57:36.462403
+PH_000775,54,Female,Married,51.32,High School,Employed,650,2.7,2024-10-01 20:57:36.462403
+PH_000776,21,Male,Married,20.98,High School,Employed,495,6.3,2024-11-02 20:57:36.462403
+PH_000777,34,Male,Married,174.29,PhD,Employed,699,9.9,2025-05-18 20:57:36.462403
+PH_000778,41,Female,Single,231.77,Master,Self-employed,733,0.8,2025-07-29 20:57:36.462403
+PH_000779,43,Female,Married,20.0,High School,Employed,589,3.0,2024-09-28 20:57:36.462403
+PH_000780,54,Female,Divorced,24.07,Bachelor,Employed,766,2.6,2025-04-18 20:57:36.462403
+PH_000781,47,Male,Divorced,43.65,Master,Employed,483,5.8,2024-10-04 20:57:36.462403
+PH_000782,24,Male,Single,25.24,High School,Employed,500,1.4,2024-11-16 20:57:36.462403
+PH_000783,50,Female,Single,81.84,Master,Employed,663,5.1,2025-07-20 20:57:36.462403
+PH_000784,54,Female,Divorced,30.49,Master,Self-employed,652,10.5,2024-12-04 20:57:36.462403
+PH_000785,53,Male,Married,308.6,High School,Self-employed,578,2.7,2025-08-29 20:57:36.462403
+PH_000786,61,Male,Divorced,141.52,High School,Unemployed,730,12.1,2025-03-26 20:57:36.462403
+PH_000787,57,Male,Single,64.72,PhD,Employed,703,24.9,2024-12-21 20:57:36.462403
+PH_000788,51,Female,Married,124.16,Bachelor,Employed,735,0.6,2025-02-12 20:57:36.462403
+PH_000789,43,Female,Married,132.25,High School,Employed,637,1.3,2024-10-16 20:57:36.462403
+PH_000790,20,Male,Married,34.77,High School,Retired,710,15.0,2025-03-14 20:57:36.462403
+PH_000791,51,Male,Married,28.42,Bachelor,Employed,605,15.9,2025-08-15 20:57:36.462403
+PH_000792,48,Female,Single,58.12,Bachelor,Self-employed,850,0.5,2025-01-03 20:57:36.462403
+PH_000793,49,Female,Married,108.78,Bachelor,Employed,568,0.1,2024-10-23 20:57:36.462403
+PH_000794,25,Male,Single,61.02,PhD,Employed,850,0.9,2025-03-29 20:57:36.462403
+PH_000795,28,Female,Married,20.0,High School,Employed,653,27.6,2025-09-13 20:57:36.462403
+PH_000796,60,Female,Widowed,28.72,Bachelor,Employed,512,1.0,2025-02-16 20:57:36.462403
+PH_000797,44,Male,Married,51.46,Bachelor,Retired,786,3.5,2025-01-12 20:57:36.462403
+PH_000798,55,Female,Divorced,51.39,Bachelor,Retired,662,9.4,2025-07-27 20:57:36.462403
+PH_000799,45,Male,Single,264.55,High School,Employed,735,0.1,2025-02-10 20:57:36.462403
+PH_000800,45,Female,Married,20.0,PhD,Employed,772,4.6,2025-03-18 20:57:36.462403
+PH_000801,59,Female,Widowed,81.82,Master,Retired,683,1.6,2024-10-29 20:57:36.462403
+PH_000802,37,Female,Single,179.7,Bachelor,Self-employed,590,9.9,2025-01-27 20:57:36.462403
+PH_000803,46,Female,Single,336.02,Bachelor,Employed,747,1.7,2024-09-22 20:57:36.462403
+PH_000804,38,Male,Married,39.51,High School,Employed,650,5.8,2025-07-03 20:57:36.462403
+PH_000805,38,Female,Single,80.89,Bachelor,Employed,718,5.6,2025-02-09 20:57:36.462403
+PH_000806,40,Female,Married,86.13,Bachelor,Employed,434,1.3,2025-06-21 20:57:36.462403
+PH_000807,48,Male,Divorced,63.84,Bachelor,Employed,694,0.2,2024-12-26 20:57:36.462403
+PH_000808,37,Female,Married,50.45,PhD,Employed,586,2.6,2024-10-21 20:57:36.462403
+PH_000809,63,Female,Single,77.38,Bachelor,Employed,815,1.7,2025-05-04 20:57:36.462403
+PH_000810,31,Male,Married,20.0,High School,Employed,712,8.3,2024-11-08 20:57:36.462403
+PH_000811,42,Female,Married,94.22,Master,Employed,673,8.1,2024-12-18 20:57:36.462403
+PH_000812,38,Female,Single,60.4,High School,Unemployed,698,3.1,2025-01-15 20:57:36.462403
+PH_000813,66,Male,Married,45.7,High School,Self-employed,550,4.7,2025-01-24 20:57:36.462403
+PH_000814,47,Female,Married,280.76,High School,Employed,812,4.6,2025-02-08 20:57:36.462403
+PH_000815,60,Male,Married,31.82,Bachelor,Retired,849,8.8,2024-11-20 20:57:36.462403
+PH_000816,22,Male,Single,39.55,Master,Retired,689,2.8,2025-05-05 20:57:36.462403
+PH_000817,49,Male,Married,268.61,Bachelor,Employed,809,1.6,2025-04-07 20:57:36.462403
+PH_000818,58,Female,Single,28.06,Master,Employed,593,1.5,2025-05-17 20:57:36.462403
+PH_000819,46,Female,Single,35.16,Bachelor,Self-employed,570,3.8,2025-08-06 20:57:36.462403
+PH_000820,60,Male,Divorced,48.54,High School,Unemployed,654,3.0,2025-04-30 20:57:36.462403
+PH_000821,37,Male,Married,106.97,Master,Retired,693,2.9,2025-02-01 20:57:36.462403
+PH_000822,66,Female,Single,64.47,High School,Unemployed,610,0.5,2025-05-18 20:57:36.462403
+PH_000823,79,Male,Single,20.0,High School,Self-employed,703,6.3,2025-01-25 20:57:36.462403
+PH_000824,39,Female,Single,35.67,Bachelor,Employed,680,1.2,2024-12-02 20:57:36.462403
+PH_000825,38,Female,Single,33.59,High School,Employed,550,1.1,2024-11-11 20:57:36.462403
+PH_000826,66,Male,Single,51.33,High School,Employed,701,2.7,2024-10-12 20:57:36.462403
+PH_000827,68,Female,Single,76.76,Bachelor,Employed,736,1.3,2025-03-09 20:57:36.462403
+PH_000828,37,Male,Married,76.29,Bachelor,Self-employed,667,4.4,2025-03-31 20:57:36.462403
+PH_000829,38,Female,Married,20.0,Bachelor,Employed,765,2.3,2025-09-05 20:57:36.462403
+PH_000830,40,Female,Married,127.89,PhD,Self-employed,528,3.0,2025-01-09 20:57:36.462403
+PH_000831,24,Female,Married,66.82,Bachelor,Employed,696,3.9,2025-04-06 20:57:36.462403
+PH_000832,31,Male,Single,165.28,Master,Employed,532,1.1,2025-06-18 20:57:36.462403
+PH_000833,29,Female,Widowed,77.89,High School,Employed,538,0.8,2025-01-13 20:57:36.462403
+PH_000834,33,Male,Divorced,131.77,Bachelor,Employed,586,10.6,2025-06-03 20:57:36.462403
+PH_000835,44,Male,Divorced,79.3,Master,Self-employed,555,2.8,2025-03-22 20:57:36.462403
+PH_000836,48,Male,Divorced,160.29,Bachelor,Self-employed,595,2.7,2025-05-10 20:57:36.462403
+PH_000837,68,Female,Divorced,82.91,Bachelor,Retired,628,0.2,2025-03-29 20:57:36.462403
+PH_000838,30,Female,Married,50.48,High School,Employed,733,3.4,2025-04-29 20:57:36.462403
+PH_000839,59,Female,Single,336.28,High School,Employed,617,4.0,2024-11-18 20:57:36.462403
+PH_000840,41,Female,Married,111.19,Bachelor,Employed,491,4.1,2024-09-25 20:57:36.462403
+PH_000841,44,Male,Married,86.4,High School,Employed,764,6.1,2025-05-01 20:57:36.462403
+PH_000842,55,Female,Married,20.0,Master,Unemployed,566,1.0,2024-12-09 20:57:36.462403
+PH_000843,28,Male,Married,20.0,High School,Self-employed,644,1.5,2025-09-14 20:57:36.462403
+PH_000844,50,Female,Single,69.0,PhD,Unemployed,694,8.3,2024-12-29 20:57:36.462403
+PH_000845,47,Female,Married,61.34,PhD,Employed,669,14.7,2025-06-14 20:57:36.462403
+PH_000846,52,Female,Divorced,33.4,High School,Unemployed,759,0.7,2025-08-07 20:57:36.462403
+PH_000847,49,Female,Married,61.12,High School,Employed,697,3.4,2025-05-19 20:57:36.462403
+PH_000848,80,Male,Married,194.59,Master,Unemployed,563,1.2,2025-02-23 20:57:36.462403
+PH_000849,35,Male,Single,95.23,PhD,Employed,850,0.3,2025-01-12 20:57:36.462403
+PH_000850,37,Female,Married,21.92,Bachelor,Employed,669,2.0,2024-12-09 20:57:36.462403
+PH_000851,35,Male,Divorced,49.94,High School,Employed,635,0.8,2025-05-19 20:57:36.462403
+PH_000852,36,Male,Married,28.68,Bachelor,Retired,746,6.2,2024-10-01 20:57:36.462403
+PH_000853,35,Male,Married,40.04,Bachelor,Employed,674,3.8,2025-01-19 20:57:36.462403
+PH_000854,62,Female,Married,39.22,High School,Employed,689,0.8,2024-10-24 20:57:36.462403
+PH_000855,66,Male,Married,37.26,Bachelor,Unemployed,850,0.0,2024-09-20 20:57:36.462403
+PH_000856,36,Male,Single,20.0,High School,Employed,622,8.3,2025-01-11 20:57:36.462403
+PH_000857,32,Female,Married,49.3,High School,Employed,618,1.0,2025-02-02 20:57:36.462403
+PH_000858,52,Female,Married,34.87,High School,Employed,661,4.7,2025-09-11 20:57:36.462403
+PH_000859,36,Male,Married,20.0,High School,Employed,757,2.1,2025-08-03 20:57:36.462403
+PH_000860,54,Male,Married,282.13,High School,Retired,499,4.4,2025-04-22 20:57:36.462403
+PH_000861,48,Male,Divorced,130.45,Bachelor,Self-employed,453,1.9,2025-05-29 20:57:36.462403
+PH_000862,22,Male,Single,40.41,High School,Employed,591,0.5,2025-02-24 20:57:36.462403
+PH_000863,68,Male,Divorced,55.43,High School,Retired,486,1.3,2024-09-30 20:57:36.462403
+PH_000864,71,Female,Single,21.38,High School,Employed,607,1.0,2025-05-18 20:57:36.462403
+PH_000865,35,Female,Married,212.0,PhD,Employed,700,2.8,2025-04-16 20:57:36.462403
+PH_000866,39,Female,Single,249.09,Bachelor,Employed,560,5.4,2024-10-15 20:57:36.462403
+PH_000867,49,Male,Married,61.89,Bachelor,Employed,507,1.5,2024-11-26 20:57:36.462403
+PH_000868,50,Female,Married,123.82,Bachelor,Employed,656,0.1,2025-03-15 20:57:36.462403
+PH_000869,54,Male,Single,62.82,PhD,Retired,736,3.7,2025-01-20 20:57:36.462403
+PH_000870,75,Female,Married,20.0,High School,Self-employed,480,4.7,2024-12-10 20:57:36.462403
+PH_000871,42,Female,Divorced,39.27,Bachelor,Employed,732,16.5,2024-12-22 20:57:36.462403
+PH_000872,33,Male,Single,60.68,Bachelor,Employed,731,4.5,2025-03-27 20:57:36.462403
+PH_000873,24,Female,Married,37.95,Bachelor,Self-employed,745,3.2,2025-02-14 20:57:36.462403
+PH_000874,34,Male,Married,45.84,High School,Retired,771,4.3,2024-12-12 20:57:36.462403
+PH_000875,44,Female,Married,50.75,Bachelor,Unemployed,850,13.1,2025-04-03 20:57:36.462403
+PH_000876,71,Male,Single,51.18,High School,Employed,614,8.8,2025-03-23 20:57:36.462403
+PH_000877,37,Male,Single,56.93,Bachelor,Self-employed,660,2.0,2024-09-25 20:57:36.462403
+PH_000878,48,Female,Single,23.37,Bachelor,Employed,608,1.4,2025-01-30 20:57:36.462403
+PH_000879,44,Male,Single,30.77,High School,Employed,650,1.5,2025-05-04 20:57:36.462403
+PH_000880,62,Female,Single,20.0,Master,Employed,803,3.5,2025-04-16 20:57:36.462403
+PH_000881,80,Male,Married,119.37,High School,Employed,515,6.8,2025-05-14 20:57:36.462403
+PH_000882,37,Female,Divorced,20.0,Master,Employed,563,3.5,2025-05-24 20:57:36.462403
+PH_000883,37,Female,Divorced,137.4,Bachelor,Employed,787,0.4,2025-07-20 20:57:36.462403
+PH_000884,60,Male,Married,165.52,High School,Employed,752,6.4,2025-06-13 20:57:36.462403
+PH_000885,55,Male,Single,42.87,High School,Self-employed,613,8.2,2025-04-11 20:57:36.462403
+PH_000886,72,Male,Single,20.0,PhD,Employed,735,1.7,2025-07-20 20:57:36.462403
+PH_000887,53,Male,Married,40.89,High School,Employed,684,5.5,2024-12-19 20:57:36.462403
+PH_000888,39,Male,Single,51.87,High School,Employed,800,2.8,2024-10-01 20:57:36.462403
+PH_000889,53,Female,Married,24.33,High School,Retired,657,11.0,2025-06-17 20:57:36.462403
+PH_000890,61,Female,Married,36.16,Bachelor,Employed,752,9.3,2025-06-13 20:57:36.462403
+PH_000891,57,Female,Married,185.7,Bachelor,Employed,850,3.7,2025-06-01 20:57:36.462403
+PH_000892,52,Female,Married,92.94,High School,Employed,709,5.9,2025-01-15 20:57:36.462403
+PH_000893,61,Female,Divorced,26.06,High School,Unemployed,654,10.7,2025-05-01 20:57:36.462403
+PH_000894,62,Female,Married,20.0,High School,Retired,722,3.4,2024-11-22 20:57:36.462403
+PH_000895,65,Male,Married,42.03,High School,Employed,613,1.9,2024-12-25 20:57:36.462403
+PH_000896,54,Female,Divorced,46.03,Bachelor,Employed,850,7.0,2024-11-18 20:57:36.462403
+PH_000897,42,Female,Widowed,81.2,Bachelor,Retired,668,1.2,2025-04-28 20:57:36.462403
+PH_000898,47,Female,Married,35.58,High School,Employed,622,2.5,2025-07-30 20:57:36.462403
+PH_000899,63,Male,Married,82.2,High School,Self-employed,566,10.0,2025-06-12 20:57:36.462403
+PH_000900,32,Male,Married,256.76,High School,Employed,759,6.4,2025-04-21 20:57:36.462403
+PH_000901,50,Male,Divorced,104.84,PhD,Employed,736,2.6,2025-05-26 20:57:36.462403
+PH_000902,39,Female,Divorced,52.54,PhD,Employed,600,1.2,2025-03-19 20:57:36.462403
+PH_000903,45,Female,Single,47.16,Master,Employed,707,2.2,2025-06-20 20:57:36.462403
+PH_000904,64,Male,Married,41.04,High School,Self-employed,499,1.7,2025-04-18 20:57:36.462403
+PH_000905,47,Female,Married,140.4,High School,Retired,668,1.0,2025-09-12 20:57:36.462403
+PH_000906,45,Male,Married,33.05,High School,Employed,695,6.8,2024-09-22 20:57:36.462403
+PH_000907,24,Male,Single,56.61,High School,Unemployed,820,1.5,2024-12-20 20:57:36.462403
+PH_000908,56,Male,Divorced,56.88,Bachelor,Employed,572,3.0,2025-07-17 20:57:36.462403
+PH_000909,54,Female,Married,36.55,Master,Employed,522,2.4,2025-05-02 20:57:36.462403
+PH_000910,77,Female,Divorced,20.0,Master,Employed,560,20.1,2025-08-27 20:57:36.462403
+PH_000911,40,Male,Divorced,70.7,Master,Retired,516,2.5,2025-08-23 20:57:36.462403
+PH_000912,48,Female,Married,52.0,High School,Self-employed,783,0.4,2024-12-10 20:57:36.462403
+PH_000913,48,Male,Married,81.47,Bachelor,Self-employed,804,0.5,2025-04-23 20:57:36.462403
+PH_000914,68,Female,Married,35.63,High School,Unemployed,682,4.5,2024-09-27 20:57:36.462403
+PH_000915,43,Female,Single,144.99,High School,Self-employed,772,4.6,2025-07-17 20:57:36.462403
+PH_000916,49,Female,Married,27.07,Bachelor,Retired,663,2.7,2024-10-28 20:57:36.462403
+PH_000917,54,Male,Single,214.78,High School,Self-employed,640,2.8,2025-01-11 20:57:36.462403
+PH_000918,47,Female,Married,20.0,Bachelor,Retired,616,0.3,2025-07-29 20:57:36.462403
+PH_000919,38,Female,Single,77.31,High School,Employed,618,3.6,2025-09-13 20:57:36.462403
+PH_000920,47,Male,Single,79.87,Bachelor,Employed,495,3.5,2024-11-30 20:57:36.462403
+PH_000921,61,Female,Single,28.89,Master,Employed,676,0.8,2025-04-27 20:57:36.462403
+PH_000922,29,Male,Single,76.67,High School,Employed,645,0.5,2025-01-22 20:57:36.462403
+PH_000923,46,Female,Married,151.96,Master,Employed,724,0.7,2025-01-17 20:57:36.462403
+PH_000924,34,Male,Married,20.0,High School,Employed,659,0.5,2025-02-06 20:57:36.462403
+PH_000925,62,Female,Married,81.63,Bachelor,Self-employed,633,4.7,2025-03-29 20:57:36.462403
+PH_000926,22,Female,Single,20.0,Bachelor,Employed,562,1.1,2025-06-17 20:57:36.462403
+PH_000927,36,Male,Single,25.22,Bachelor,Employed,657,1.4,2025-08-24 20:57:36.462403
+PH_000928,50,Male,Single,201.01,PhD,Employed,723,1.0,2025-05-13 20:57:36.462403
+PH_000929,68,Male,Single,34.28,High School,Retired,535,15.8,2025-01-18 20:57:36.462403
+PH_000930,44,Male,Divorced,21.35,Bachelor,Employed,658,9.6,2025-07-23 20:57:36.462403
+PH_000931,36,Male,Single,46.6,Bachelor,Employed,673,1.3,2025-08-17 20:57:36.462403
+PH_000932,73,Female,Married,285.52,Master,Self-employed,578,2.0,2025-02-26 20:57:36.462403
+PH_000933,23,Male,Single,20.0,High School,Self-employed,591,1.2,2025-01-11 20:57:36.462403
+PH_000934,18,Male,Single,23.55,Master,Employed,673,3.4,2025-08-13 20:57:36.462403
+PH_000935,51,Female,Married,180.9,Bachelor,Employed,536,0.1,2024-11-28 20:57:36.462403
+PH_000936,37,Male,Married,241.33,High School,Employed,684,5.6,2024-11-01 20:57:36.462403
+PH_000937,29,Female,Single,50.26,Bachelor,Retired,560,3.7,2024-10-03 20:57:36.462403
+PH_000938,55,Female,Single,20.26,High School,Employed,756,11.4,2025-08-23 20:57:36.462403
+PH_000939,48,Female,Married,291.98,Bachelor,Employed,850,0.9,2025-07-04 20:57:36.462972
+PH_000940,36,Female,Single,195.5,Master,Employed,563,8.2,2025-07-05 20:57:36.462972
+PH_000941,25,Female,Single,93.99,Bachelor,Employed,703,7.9,2024-12-05 20:57:36.462972
+PH_000942,58,Male,Widowed,28.5,Bachelor,Self-employed,577,0.7,2025-04-17 20:57:36.462972
+PH_000943,54,Male,Married,52.5,Bachelor,Employed,754,2.5,2025-08-07 20:57:36.462972
+PH_000944,43,Male,Married,48.02,High School,Employed,523,0.9,2025-05-15 20:57:36.462972
+PH_000945,72,Female,Married,71.14,High School,Employed,698,1.5,2025-07-21 20:57:36.462972
+PH_000946,28,Male,Married,174.3,Bachelor,Employed,562,1.5,2024-12-08 20:57:36.462972
+PH_000947,22,Female,Married,110.34,High School,Employed,629,4.1,2025-02-18 20:57:36.462972
+PH_000948,34,Female,Married,23.06,High School,Unemployed,546,2.7,2024-11-13 20:57:36.462972
+PH_000949,44,Female,Married,164.22,Bachelor,Self-employed,732,14.8,2024-11-18 20:57:36.462972
+PH_000950,48,Female,Single,70.14,High School,Retired,566,0.7,2024-11-07 20:57:36.462972
+PH_000951,41,Male,Married,94.6,High School,Unemployed,705,18.2,2025-05-27 20:57:36.462972
+PH_000952,50,Female,Married,176.48,Bachelor,Self-employed,615,1.3,2024-12-26 20:57:36.462972
+PH_000953,26,Female,Divorced,22.44,High School,Employed,638,7.4,2025-03-09 20:57:36.462972
+PH_000954,66,Male,Married,53.06,Master,Self-employed,664,2.1,2025-02-01 20:57:36.462972
+PH_000955,43,Male,Married,35.69,Master,Unemployed,573,0.8,2025-02-05 20:57:36.462972
+PH_000956,61,Female,Single,20.0,Bachelor,Self-employed,671,9.8,2025-04-20 20:57:36.462972
+PH_000957,50,Female,Married,72.05,High School,Employed,803,1.8,2024-11-22 20:57:36.462972
+PH_000958,51,Female,Single,407.18,Master,Employed,572,5.4,2025-02-12 20:57:36.462972
+PH_000959,53,Female,Married,20.0,Master,Unemployed,767,4.2,2025-04-16 20:57:36.462972
+PH_000960,51,Female,Single,53.21,Master,Self-employed,799,3.2,2024-12-02 20:57:36.462972
+PH_000961,54,Male,Married,91.14,High School,Retired,568,3.4,2024-11-06 20:57:36.462972
+PH_000962,64,Male,Single,60.25,Bachelor,Employed,504,6.6,2025-08-20 20:57:36.462972
+PH_000963,47,Male,Married,49.87,Master,Employed,680,0.5,2024-11-11 20:57:36.462972
+PH_000964,55,Male,Divorced,20.0,Bachelor,Employed,595,5.5,2025-07-31 20:57:36.462972
+PH_000965,43,Female,Single,65.77,Bachelor,Self-employed,836,11.3,2025-06-05 20:57:36.462972
+PH_000966,66,Female,Married,29.8,Bachelor,Employed,653,0.3,2024-11-03 20:57:36.462972
+PH_000967,34,Female,Married,20.0,Bachelor,Employed,569,0.8,2025-06-03 20:57:36.462972
+PH_000968,72,Male,Single,141.98,High School,Retired,535,6.3,2025-05-07 20:57:36.462972
+PH_000969,44,Female,Married,117.53,Bachelor,Employed,758,2.9,2024-10-16 20:57:36.462972
+PH_000970,23,Female,Single,56.9,High School,Unemployed,592,2.6,2025-08-09 20:57:36.462972
+PH_000971,46,Female,Married,65.58,Bachelor,Employed,654,0.7,2025-07-01 20:57:36.462972
+PH_000972,34,Female,Married,128.95,High School,Unemployed,745,3.5,2025-05-20 20:57:36.462972
+PH_000973,57,Male,Married,65.33,Bachelor,Employed,601,0.7,2025-06-23 20:57:36.462972
+PH_000974,35,Male,Married,112.53,High School,Retired,645,3.2,2024-12-11 20:57:36.462972
+PH_000975,38,Male,Single,43.04,Bachelor,Retired,648,7.2,2025-08-12 20:57:36.462972
+PH_000976,18,Male,Single,155.96,Master,Employed,718,1.5,2025-07-01 20:57:36.462972
+PH_000977,38,Male,Married,70.57,High School,Employed,709,3.3,2025-09-18 20:57:36.462972
+PH_000978,18,Female,Married,63.77,High School,Employed,627,24.2,2025-02-22 20:57:36.462972
+PH_000979,21,Female,Divorced,20.0,High School,Self-employed,656,5.8,2025-02-01 20:57:36.462972
+PH_000980,56,Female,Divorced,68.69,Master,Unemployed,612,9.2,2024-10-02 20:57:36.462972
+PH_000981,56,Female,Divorced,28.06,Bachelor,Employed,502,2.7,2024-11-19 20:57:36.462972
+PH_000982,51,Male,Married,32.77,Bachelor,Self-employed,675,7.3,2025-01-22 20:57:36.462972
+PH_000983,30,Female,Married,28.44,High School,Employed,839,0.2,2025-04-23 20:57:36.462972
+PH_000984,44,Male,Married,23.27,Bachelor,Unemployed,561,0.7,2025-09-03 20:57:36.462972
+PH_000985,44,Male,Married,298.81,Master,Retired,572,1.1,2025-05-24 20:57:36.462972
+PH_000986,27,Male,Single,158.39,Master,Employed,562,2.6,2025-04-25 20:57:36.462972
+PH_000987,67,Male,Divorced,253.74,Bachelor,Employed,722,9.3,2024-09-23 20:57:36.462972
+PH_000988,58,Male,Divorced,20.53,High School,Employed,694,2.1,2025-04-28 20:57:36.462972
+PH_000989,41,Male,Married,57.8,High School,Employed,634,5.3,2024-09-25 20:57:36.462972
+PH_000990,45,Male,Single,20.0,High School,Employed,558,6.2,2025-01-30 20:57:36.462972
+PH_000991,48,Female,Married,31.29,High School,Employed,659,4.4,2025-08-14 20:57:36.462972
+PH_000992,18,Male,Divorced,26.19,High School,Employed,493,2.2,2024-10-03 20:57:36.462972
+PH_000993,41,Male,Divorced,147.18,High School,Employed,664,4.3,2025-05-23 20:57:36.462972
+PH_000994,34,Male,Single,39.77,High School,Employed,737,2.1,2025-05-07 20:57:36.462972
+PH_000995,29,Female,Single,128.34,Master,Employed,524,0.4,2024-11-03 20:57:36.462972
+PH_000996,40,Male,Divorced,88.53,Bachelor,Employed,496,24.7,2024-11-22 20:57:36.462972
+PH_000997,71,Male,Married,344.78,Master,Self-employed,807,0.7,2024-10-16 20:57:36.462972
+PH_000998,54,Male,Married,20.0,Bachelor,Self-employed,588,0.4,2025-06-10 20:57:36.462972
+PH_000999,36,Male,Widowed,149.51,High School,Employed,763,10.5,2025-02-14 20:57:36.462972
+PH_001000,53,Male,Single,136.61,Bachelor,Employed,634,1.8,2025-07-23 20:57:36.462972

@@ -1,0 +1,73 @@
+[
+  {
+    "doc_id": "DOC_001",
+    "title": "Auto Insurance Underwriting Guidelines",
+    "content": "\n                Auto insurance underwriting guidelines:\n                1. Age factor: Drivers under 25 and over 65 have higher risk\n                2. Driving record: Clean record for 3+ years preferred\n                3. Vehicle type: Sports cars and luxury vehicles have higher premiums\n                4. Usage: Commercial use increases risk significantly\n                5. Location: Urban areas have higher claim frequency\n                6. Credit score: Lower credit scores correlate with higher claims\n                ",
+    "category": "underwriting_guidelines",
+    "tags": [
+      "auto",
+      "underwriting",
+      "guidelines",
+      "risk_factors"
+    ]
+  },
+  {
+    "doc_id": "DOC_002",
+    "title": "Property Insurance Risk Assessment",
+    "content": "\n                Property insurance risk factors:\n                1. Location: Flood zones, earthquake areas, high-crime neighborhoods\n                2. Property age: Older properties have higher maintenance risks\n                3. Construction type: Frame vs brick construction affects risk\n                4. Occupancy: Owner-occupied vs rental properties\n                5. Security features: Alarm systems, deadbolts reduce risk\n                6. Previous claims: History of water damage, fire claims\n                ",
+    "category": "underwriting_guidelines",
+    "tags": [
+      "property",
+      "risk_assessment",
+      "guidelines"
+    ]
+  },
+  {
+    "doc_id": "DOC_003",
+    "title": "Health Insurance Underwriting Criteria",
+    "content": "\n                Health insurance underwriting considerations:\n                1. Pre-existing conditions: Must be disclosed and evaluated\n                2. Age and gender: Affects premium calculations\n                3. Lifestyle factors: Smoking, alcohol consumption, exercise habits\n                4. Family history: Genetic predispositions to certain conditions\n                5. Occupation: High-risk jobs increase premiums\n                6. Geographic location: Healthcare costs vary by region\n                ",
+    "category": "underwriting_guidelines",
+    "tags": [
+      "health",
+      "underwriting",
+      "medical",
+      "lifestyle"
+    ]
+  },
+  {
+    "doc_id": "DOC_004",
+    "title": "Case Study: High-Risk Auto Claim",
+    "content": "\n                Case Study - High-Risk Auto Claim:\n                Policyholder: 22-year-old male, single, student\n                Vehicle: 2020 sports car, high-performance\n                Driving record: 2 speeding tickets in past year\n                Claim: Total loss accident, $45,000 damage\n                Outcome: Policy non-renewed due to high risk profile\n                Lessons: Young drivers with sports cars and violations\n                represent significant underwriting risk.\n                ",
+    "category": "case_studies",
+    "tags": [
+      "case_study",
+      "auto",
+      "high_risk",
+      "young_driver"
+    ]
+  },
+  {
+    "doc_id": "DOC_005",
+    "title": "Case Study: Property Water Damage",
+    "content": "\n                Case Study - Property Water Damage:\n                Property: 15-year-old single-family home\n                Location: Flood-prone area, previous water damage\n                Claim: Basement flooding, $25,000 damage\n                Investigation: Found unmaintained sump pump\n                Outcome: Claim paid but policy terms modified\n                Prevention: Regular maintenance inspections required\n                ",
+    "category": "case_studies",
+    "tags": [
+      "case_study",
+      "property",
+      "water_damage",
+      "maintenance"
+    ]
+  },
+  {
+    "doc_id": "DOC_006",
+    "title": "Risk Scoring Methodology",
+    "content": "\n                Risk Scoring Methodology:\n                1. Financial Health (30%): Income, credit score, debt-to-income\n                2. Claims History (25%): Frequency, severity, time since last claim\n                3. Policy Compliance (20%): Payment history, policy adherence\n                4. External Factors (15%): Location, economic conditions\n                5. Document Quality (10%): Completeness, accuracy of information\n                \n                Scoring Scale: 0-100 (0=lowest risk, 100=highest risk)\n                Thresholds: Low (0-30), Medium (31-60), High (61-80), Critical (81-100)\n                ",
+    "category": "methodology",
+    "tags": [
+      "risk_scoring",
+      "methodology",
+      "weights",
+      "thresholds"
+    ]
+  }
+]
