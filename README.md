@@ -2,7 +2,7 @@
 
 A comprehensive AI-powered system for automated underwriting risk assessment that integrates multiple data sources, retrieves relevant documents, runs deterministic checks, and produces explainable risk scores.
 
-## 🎯 Project Goals
+## Project Goals
 
 - **Data Integration**: Combine policy and claims information from multiple sources
 - **Document Retrieval**: Implement RAG system for relevant document search
@@ -11,7 +11,7 @@ A comprehensive AI-powered system for automated underwriting risk assessment tha
 - **MLOps**: Implement experiment tracking and model versioning
 - **Explainability**: Provide clear rationale for risk scores
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Agentic-Underwriting-Assistant/
@@ -32,7 +32,7 @@ Agentic-Underwriting-Assistant/
 └── README.md             # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 1. **Clone the repository**
    ```bash
@@ -66,7 +66,7 @@ Agentic-Underwriting-Assistant/
 - **MLOps Pipeline**
 - **Experiment Tracking**
 
-## 📊 Risk Scoring
+## Risk Scoring
 
 The system provides risk scores based on:
 - Financial Health (30%)
@@ -75,7 +75,7 @@ The system provides risk scores based on:
 - External Factors (15%)
 - Document Quality (10%)
 
-## 🔧 Configuration
+## Configuration
 
 Edit `config/config.yaml` to customize:
 - Model parameters
@@ -83,14 +83,14 @@ Edit `config/config.yaml` to customize:
 - RAG settings
 - MLOps configuration
 
-## 📈 MLOps
+## MLOps
 
 - **Experiment Tracking**: MLflow integration
 - **Model Registry**: Version control for models
 - **Auto-logging**: Automatic experiment logging
 - **Performance Monitoring**: Track model performance over time
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -98,6 +98,6 @@ Edit `config/config.yaml` to customize:
 4. Add tests
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
