@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  underwriting-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://audit_user:password@postgres-audit:5432/underwriting_audit
+      - OLLAMA_URL=http://ollama-server:11434
+      - CHROMA_URL=http://chroma-db:8000
+    depends_on:
+      - postgres-audit
+    volumes:
+      - ./data:/app/data
+    networks:
+      - underwriting_network
+
+  postgres-audit:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=underwriting_audit
+      - POSTGRES_USER=audit_user
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - underwriting_network
+
+  chroma-db:
+    image: chromadb/chroma:0.4.24
+    ports:
+      - "8001:8000"
+    volumes:
+      - chroma_data:/chroma/chroma
+    networks:
+      - underwriting_network
+
+  ollama-server:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - underwriting_network
+
+volumes:
+  postgres_data:
+  chroma_data:
+  ollama_data:
+
+networks:
+  underwriting_network:
+    driver: bridge
