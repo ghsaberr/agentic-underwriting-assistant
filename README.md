@@ -28,7 +28,7 @@ curl -X POST http://localhost:8000/assess-risk \
 - **API**: FastAPI with MLflow tracking
 - **MLOps**: Automated retraining & monitoring
 
-## 📊 Features
+## Features
 
 - ✅ **Risk Assessment**: 0-100 risk scores with explanations
 - ✅ **Document Retrieval**: RAG-based relevant document search
@@ -49,7 +49,7 @@ curl -X POST http://localhost:8000/assess-risk \
 
 ## Project Structure
 
-```
+
 ├── src/
 │   ├── agents/          # AI Agent (RAG + LLM)
 │   ├── api/            # FastAPI endpoints
@@ -59,7 +59,7 @@ curl -X POST http://localhost:8000/assess-risk \
 ├── config/             # Configuration files
 ├── docs/               # Documentation
 └── docker-compose.yml  # Multi-container setup
-```
+
 
 ## API Endpoints
 
