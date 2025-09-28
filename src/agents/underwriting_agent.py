@@ -167,12 +167,31 @@ class UnderwritingAgent:
             ph_income = float(policyholder_data.get("annual_income", 0) or 0)
 
             rule_penalty = 0.0
+            reasons = []
+            
+            # Age-based penalties (more granular)
             if ph_age < 21:
-                rule_penalty += 40.0
+                rule_penalty += 50.0
+                reasons.append("age<21")
+            elif ph_age < 25:
+                rule_penalty += 30.0
+                reasons.append("age<25")
+            
+            # Credit-based penalties (more granular)
             if ph_credit < 500:
-                rule_penalty += 40.0
+                rule_penalty += 50.0
+                reasons.append("credit<500")
+            elif ph_credit < 600:
+                rule_penalty += 30.0
+                reasons.append("credit<600")
+            
+            # Income-based penalties (more granular)
             if ph_income < 10000:
+                rule_penalty += 40.0
+                reasons.append("income<10k")
+            elif ph_income < 30000:
                 rule_penalty += 20.0
+                reasons.append("income<30k")
 
             # Final score = max of sources
             final_score = max(score, risk_calc_score, rule_penalty)
@@ -194,13 +213,6 @@ class UnderwritingAgent:
             # Build rationale with adjustment note when consistency guard applied
             rationale_out = llm_response.get("rationale", "Assessment completed")
             if consistency_applied:
-                reasons = []
-                if ph_age < 21:
-                    reasons.append("age<21")
-                if ph_credit < 500:
-                    reasons.append("credit<500")
-                if ph_income < 10000:
-                    reasons.append("income<10k")
                 reasons_text = ", ".join(reasons) if reasons else "rules triggered"
                 rationale_out = (
                     f"{rationale_out}\n\nNote: Final risk adjusted by hard rules ({reasons_text}). "
