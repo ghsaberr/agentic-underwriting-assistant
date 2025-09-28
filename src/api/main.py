@@ -5,10 +5,20 @@ import json
 import uuid
 from datetime import datetime
 import logging
+import time
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+# Import MLflow tracker
+try:
+    from src.mlops.experiment_tracker import tracker
+    mlflow_available = True
+    logger.info("MLflow tracking enabled")
+except ImportError as e:
+    logger.warning(f"MLflow not available: {e}")
+    mlflow_available = False
 
 app = FastAPI(
     title="Underwriting Agent API",
@@ -169,11 +179,17 @@ async def assess_risk(policyholder_data: PolicyholderData):
         # Log request
         logger.info(f"Risk assessment request received: {request_id}")
         
+        # Start timing for MLflow
+        start_time = time.time()
+        
         # Convert Pydantic model to dict for agent
         policyholder_dict = policyholder_data.model_dump()
         
         # Perform risk assessment
         assessment_result = agent.assess_risk(policyholder_dict)
+        
+        # Calculate processing time
+        processing_time = time.time() - start_time
         
         # Create response
         response = RiskAssessmentResponse(
@@ -196,6 +212,36 @@ async def assess_risk(policyholder_data: PolicyholderData):
             "status": "success"
         }
         audit_trail.append(audit_entry)
+        
+        # Log to MLflow if available
+        if mlflow_available:
+            try:
+                # Extract additional data for MLflow
+                retrieved_docs = assessment_result.get("retrieved_docs", [])
+                tool_citations = assessment_result.get("tool_citations", [])
+                
+                # Create tool outputs dict
+                tool_outputs = {
+                    "risk_calculator": {"used": "risk_calculator" in tool_citations},
+                    "rule_checker": {"used": "rule_checker" in tool_citations},
+                    "document_retriever": {"used": len(retrieved_docs) > 0, "count": len(retrieved_docs)}
+                }
+                
+                # Log the run
+                run_id = tracker.log_agent_run(
+                    input_data=policyholder_dict,
+                    output_data=assessment_result,
+                    retrieved_docs=retrieved_docs,
+                    tool_outputs=tool_outputs,
+                    processing_time=processing_time,
+                    model_version="1.0.0"
+                )
+                
+                if run_id:
+                    logger.info(f"MLflow run logged: {run_id}")
+                    
+            except Exception as e:
+                logger.warning(f"Failed to log to MLflow: {e}")
         
         logger.info(f"Risk assessment completed: {request_id}, Score: {response.risk_score}")
         
@@ -235,6 +281,29 @@ async def get_audit_trail(limit: int = 10):
         "entries": audit_trail[-limit:],
         "total_entries": len(audit_trail),
         "timestamp": datetime.now().isoformat()
+    }
+
+@app.get("/mlflow-summary")
+async def get_mlflow_summary():
+    """Get MLflow experiment summary"""
+    if not mlflow_available:
+        return {"error": "MLflow not available"}
+    
+    try:
+        summary = tracker.get_experiment_summary()
+        return summary
+    except Exception as e:
+        return {"error": str(e)}
+
+@app.get("/mlflow-ui")
+async def get_mlflow_ui_info():
+    """Get MLflow UI information"""
+    return {
+        "mlflow_available": mlflow_available,
+        "experiment_name": "underwriting-agent",
+        "tracking_uri": "file:./mlruns",
+        "ui_command": "mlflow ui --backend-store-uri file:./mlruns --port 5000",
+        "ui_url": "http://localhost:5000"
     }
 
 if __name__ == "__main__":

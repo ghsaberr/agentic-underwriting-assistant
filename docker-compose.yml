@@ -9,10 +9,12 @@ services:
       - DATABASE_URL=postgresql://audit_user:password@postgres-audit:5432/underwriting_audit
       - OLLAMA_URL=http://ollama-server:11434
       - CHROMA_URL=http://chroma-db:8000
+      - MLFLOW_TRACKING_URI=file:/mlruns
     depends_on:
       - postgres-audit
     volumes:
       - ./data:/app/data
+      - ./mlruns:/mlruns
     networks:
       - underwriting_network
 
@@ -30,7 +32,7 @@ services:
       - underwriting_network
 
   chroma-db:
-    image: chromadb/chroma:0.4.24
+    image: chromadb/chroma:0.4.15
     ports:
       - "8001:8000"
     volumes:
@@ -44,6 +46,20 @@ services:
       - "11434:11434"
     volumes:
       - ollama_data:/root/.ollama
+    networks:
+      - underwriting_network
+
+  mlflow-ui:
+    image: python:3.9-slim
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/mlruns
+      - ./requirements-api.txt:/requirements.txt
+    working_dir: /
+    command: >
+      sh -c "pip install mlflow==2.8.1 &&
+             mlflow ui --backend-store-uri file:///mlruns --host 0.0.0.0 --port 5000"
     networks:
       - underwriting_network
 
