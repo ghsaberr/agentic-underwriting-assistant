@@ -11,93 +11,115 @@ A comprehensive AI-powered system for automated underwriting risk assessment tha
 - **MLOps**: Implement experiment tracking and model versioning
 - **Explainability**: Provide clear rationale for risk scores
 
+
+# Test API
+curl http://localhost:8000/health
+
+# Risk assessment
+curl -X POST http://localhost:8000/assess-risk \
+  -H "Content-Type: application/json" \
+  -d '{"policyholder_id": "PH_001", "age": 35, "credit_score": 720, "annual_income": 50000}'
+```
+
+
+
+- **AI Agent**: Ollama + LangChain + RAG
+- **Vector Store**: ChromaDB for document retrieval
+- **API**: FastAPI with MLflow tracking
+- **MLOps**: Automated retraining & monitoring
+
+## 📊 Features
+
+- ✅ **Risk Assessment**: 0-100 risk scores with explanations
+- ✅ **Document Retrieval**: RAG-based relevant document search
+- ✅ **Deterministic Tools**: Risk calculator & rule checker
+- ✅ **Local LLM**: Ollama integration (llama2:7b)
+- ✅ **MLOps**: MLflow tracking & automated retraining
+- ✅ **API**: RESTful endpoints for integration
+
+## Services
+
+| Service | Port | Description |
+|---------|------|-------------|
+| API | 8000 | Main FastAPI application |
+| MLflow UI | 5000 | Experiment tracking |
+| ChromaDB | 8001 | Vector database |
+| Ollama | 11434 | Local LLM server |
+| PostgreSQL | 5432 | Audit database |
+
 ## Project Structure
 
 ```
-Agentic-Underwriting-Assistant/
-├── data/                   # Data storage
-│   ├── raw/               # Raw data files
-│   ├── processed/         # Processed data
-│   └── external/          # External data sources
-├── src/                   # Source code
-│   ├── agents/            # AI agents
-│   ├── data/              # Data processing
-│   ├── models/            # ML models
-│   └── utils/             # Utilities
-├── config/                # Configuration files
-├── notebooks/             # Jupyter notebooks
-├── tests/                 # Test files
-├── docs/                  # Documentation
-├── requirements.txt       # Python dependencies
-└── README.md             # This file
+├── src/
+│   ├── agents/          # AI Agent (RAG + LLM)
+│   ├── api/            # FastAPI endpoints
+│   ├── tools/          # Risk calculator & rule checker
+│   └── mlops/          # MLflow & retraining
+├── data/               # Raw & processed data
+├── config/             # Configuration files
+├── docs/               # Documentation
+└── docker-compose.yml  # Multi-container setup
 ```
 
-## Quick Start
+## API Endpoints
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd Agentic-Underwriting-Assistant
-   ```
+- `GET /health` - Health check
+- `POST /assess-risk` - Risk assessment
+- `GET /retraining-status` - Check retraining needs
+- `POST /trigger-retraining` - Manual retraining
+- `GET /mlflow-ui` - MLflow UI info
 
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Retraining
 
-3. **Set up environment**
-   ```bash
-   cp env.example .env
-   # Edit .env with your API keys
-   ```
+**Automatic**: Monthly + performance drift detection
+```bash
+# Check status
+curl http://localhost:8000/retraining-status
 
-4. **Run the system**
-   ```bash
-   python -m src.main
-   ```
+# Manual trigger
+curl -X POST http://localhost:8000/trigger-retraining
+```
 
-## 🛠️ Features
+**Monitoring**: Cron job for automated checks
+```bash
+# Run monitoring
+python scripts/monitor_retraining.py
+```
 
-- **Multi-source Data Integration**
-- **RAG-based Document Retrieval**
-- **Deterministic Risk Checks**
-- **Local LLM Integration**
-- **Explainable Risk Scoring**
-- **MLOps Pipeline**
-- **Experiment Tracking**
+## MLflow
 
-## Risk Scoring
-
-The system provides risk scores based on:
-- Financial Health (30%)
-- Claims History (25%)
-- Policy Compliance (20%)
-- External Factors (15%)
-- Document Quality (10%)
+- **UI**: http://localhost:5000
+- **Tracking**: Automatic experiment logging
+- **Artifacts**: Full rationale & model outputs
+- **Retraining**: Automated model updates
 
 ## Configuration
 
-Edit `config/config.yaml` to customize:
-- Model parameters
-- Risk scoring weights
-- RAG settings
-- MLOps configuration
+Edit `config/config.yaml`:
+- LLM settings (Ollama)
+- Risk scoring thresholds
+- RAG parameters
+- Retraining triggers
 
-## MLOps
+## Documentation
 
-- **Experiment Tracking**: MLflow integration
-- **Model Registry**: Version control for models
-- **Auto-logging**: Automatic experiment logging
-- **Performance Monitoring**: Track model performance over time
+- [Retraining Guide](docs/RETRAINING.md)
+- [API Documentation](http://localhost:8000/docs)
+- [MLflow UI](http://localhost:5000)
 
-## Contributing
+## Docker
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
+```bash
+# Start all services
+docker-compose up -d
+
+# View logs
+docker-compose logs -f underwriting-api
+
+# Stop services
+docker-compose down
+```
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+MIT License - see [LICENSE](LICENSE) file.
