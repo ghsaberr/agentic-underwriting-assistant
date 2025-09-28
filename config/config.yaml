@@ -6,46 +6,104 @@ data:
   processed_path: "data/processed"
   external_path: "data/external"
 
-# Model configuration
-models:
-  llm:
-    provider: "openai"  # or "local" for local models
-    model_name: "gpt-3.5-turbo"
-    temperature: 0.1
-    max_tokens: 1000
-  
-  embedding:
-    model_name: "sentence-transformers/all-MiniLM-L6-v2"
-    dimension: 384
+# LLM Configuration (Ollama)
+llm:
+  provider: "ollama"
+  model_name: "llama2:7b"
+  base_url: "http://localhost:11434"
+  temperature: 0.1
+  max_tokens: 1000
+  timeout: 600
 
-# RAG configuration
+# Vector Store Configuration (ChromaDB)
+vector_store:
+  provider: "chromadb"
+  host: "localhost"
+  port: 8001
+  collection_name: "underwriting_documents"
+  embedding_model: "all-MiniLM-L6-v2"
+
+# RAG Configuration
 rag:
+  top_k: 3
+  similarity_threshold: 0.5
   chunk_size: 1000
   chunk_overlap: 200
-  top_k: 5
-  similarity_threshold: 0.7
 
-# Risk scoring
+# Risk Scoring Configuration
 risk_scoring:
-  weights:
-    financial_health: 0.3
-    claims_history: 0.25
-    policy_compliance: 0.2
-    external_factors: 0.15
-    document_quality: 0.1
-  
+  # Risk level thresholds (0-100 scale)
   thresholds:
-    low_risk: 0.3
-    medium_risk: 0.6
-    high_risk: 0.8
+    low_risk: 40
+    medium_risk: 70
+    high_risk: 100
+  
+  # Consistency guard rules
+  consistency_guard:
+    min_age: 21
+    min_credit_score: 500
+    min_annual_income: 10000
 
-# MLOps
+# Deterministic Tools
+tools:
+  risk_calculator:
+    enabled: true
+    weights:
+      age_factor: 0.2
+      credit_factor: 0.3
+      claims_factor: 0.25
+      income_factor: 0.15
+      coverage_factor: 0.1
+  
+  rule_checker:
+    enabled: true
+    rules:
+      age_rules:
+        min_age: 18
+        max_age: 80
+        senior_age_threshold: 65
+      credit_rules:
+        excellent_credit: 750
+        good_credit: 700
+        fair_credit: 600
+        poor_credit: 500
+      claims_rules:
+        max_claims_per_year: 2
+        high_severity_threshold: 1
+        recent_claim_days: 365
+
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+  reload: false
+
+# Database Configuration
+database:
+  postgres:
+    host: "postgres-audit"
+    port: 5432
+    database: "underwriting_audit"
+    username: "audit_user"
+    password: "password"
+
+# MLOps Configuration (MLflow)
 mlops:
-  experiment_tracking: "mlflow"  # or "wandb"
+  experiment_tracking: "mlflow"
+  tracking_uri: "file:./mlruns"
+  experiment_name: "underwriting-agent"
   model_registry: true
   auto_logging: true
 
-# Logging
+# Logging Configuration
 logging:
   level: "INFO"
   format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/underwriting.log"
+
+# Docker Configuration
+docker:
+  ollama_url: "http://ollama-server:11434"
+  chroma_url: "http://chroma-db:8000"
+  mlflow_tracking_uri: "file:/mlruns"
