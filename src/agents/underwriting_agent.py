@@ -451,7 +451,7 @@ class OllamaLLM:
                     "stream": False,
                     "options": {
                         "temperature": 0.1,
-                        "num_predict": 500
+                        "num_predict": 1000
                     }
                 },
                 timeout=600  # Increased timeout to 10 minutes
