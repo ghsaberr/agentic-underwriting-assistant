@@ -13,15 +13,16 @@ A comprehensive AI-powered system for automated underwriting risk assessment tha
 
 
 # Test API
+```
 curl http://localhost:8000/health
+```
 
 # Risk assessment
+```
 curl -X POST http://localhost:8000/assess-risk \
   -H "Content-Type: application/json" \
   -d '{"policyholder_id": "PH_001", "age": 35, "credit_score": 720, "annual_income": 50000}'
 ```
-
-
 
 - **AI Agent**: Ollama + LangChain + RAG
 - **Vector Store**: ChromaDB for document retrieval
@@ -38,7 +39,7 @@ curl -X POST http://localhost:8000/assess-risk \
 - ✅ **API**: RESTful endpoints for integration
 
 ## Services
-
+```
 | Service | Port | Description |
 |---------|------|-------------|
 | API | 8000 | Main FastAPI application |
@@ -46,10 +47,10 @@ curl -X POST http://localhost:8000/assess-risk \
 | ChromaDB | 8001 | Vector database |
 | Ollama | 11434 | Local LLM server |
 | PostgreSQL | 5432 | Audit database |
+```
 
 ## Project Structure
-
-
+```
 ├── src/
 │   ├── agents/          # AI Agent (RAG + LLM)
 │   ├── api/            # FastAPI endpoints
@@ -59,6 +60,7 @@ curl -X POST http://localhost:8000/assess-risk \
 ├── config/             # Configuration files
 ├── docs/               # Documentation
 └── docker-compose.yml  # Multi-container setup
+```
 
 
 ## API Endpoints
