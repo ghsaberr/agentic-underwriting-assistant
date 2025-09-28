@@ -1,0 +1,12 @@
+2025-09-29 00:10:09,672 - __main__ - INFO - Starting retraining monitoring check...
+2025-09-29 00:10:09,686 - mlops.retraining_scheduler - INFO - No previous retraining state found
+2025-09-29 00:10:09,686 - __main__ - INFO - Retraining needed: True
+2025-09-29 00:10:09,686 - __main__ - INFO - Reasons: Monthly retraining scheduled, Sufficient new data available
+2025-09-29 00:10:09,686 - __main__ - INFO - Confidence: 0.50
+2025-09-29 00:10:09,687 - __main__ - INFO - ALERT [WARNING]: Retraining needed: Monthly retraining scheduled, Sufficient new data available
+2025-09-29 00:10:09,691 - mlops.retraining_scheduler - INFO - Model backed up to mlruns\backups\backup_20250929_001009
+2025-09-29 00:10:09,692 - mlops.retraining_scheduler - INFO - Retraining baseline models...
+2025-09-29 00:10:09,711 - mlops.retraining_scheduler - INFO - Vector store reindexed successfully
+2025-09-29 00:10:09,714 - __main__ - INFO - ALERT [INFO]: Retraining completed successfully
+2025-09-29 00:10:09,714 - __main__ - INFO - Retraining completed successfully
+2025-09-29 00:10:09,714 - __main__ - INFO - Retraining monitoring check completed

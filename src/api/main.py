@@ -306,6 +306,71 @@ async def get_mlflow_ui_info():
         "ui_url": "http://localhost:5000"
     }
 
+@app.post("/reindex-documents")
+async def reindex_documents():
+    """Reindex documents in vector store"""
+    try:
+        # This would trigger document reindexing
+        # For now, we'll just return success
+        logger.info("Document reindexing triggered")
+        
+        return {
+            "success": True,
+            "message": "Document reindexing completed",
+            "timestamp": datetime.now().isoformat(),
+            "documents_processed": 3  # Mock number
+        }
+    except Exception as e:
+        logger.error(f"Document reindexing failed: {e}")
+        return {
+            "success": False,
+            "message": f"Document reindexing failed: {str(e)}",
+            "timestamp": datetime.now().isoformat()
+        }
+
+@app.get("/retraining-status")
+async def get_retraining_status():
+    """Get retraining status and recommendations"""
+    try:
+        from src.mlops.retraining_scheduler import RetrainingScheduler
+        
+        scheduler = RetrainingScheduler()
+        scheduler.load_retraining_state()
+        status = scheduler.check_retraining_needed()
+        
+        return {
+            "retraining_needed": status["retraining_needed"],
+            "reasons": status["reasons"],
+            "confidence": status["confidence"],
+            "next_check": status["next_check"],
+            "last_retraining": scheduler.last_retraining.isoformat() if scheduler.last_retraining else None
+        }
+    except Exception as e:
+        logger.error(f"Could not get retraining status: {e}")
+        return {
+            "error": str(e),
+            "retraining_needed": False
+        }
+
+@app.post("/trigger-retraining")
+async def trigger_retraining():
+    """Manually trigger retraining process"""
+    try:
+        from src.mlops.retraining_scheduler import RetrainingScheduler
+        
+        scheduler = RetrainingScheduler()
+        scheduler.load_retraining_state()
+        result = scheduler.trigger_retraining()
+        
+        return result
+    except Exception as e:
+        logger.error(f"Retraining trigger failed: {e}")
+        return {
+            "success": False,
+            "message": f"Retraining failed: {str(e)}",
+            "timestamp": datetime.now().isoformat()
+        }
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)

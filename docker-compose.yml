@@ -9,12 +9,10 @@ services:
       - DATABASE_URL=postgresql://audit_user:password@postgres-audit:5432/underwriting_audit
       - OLLAMA_URL=http://ollama-server:11434
       - CHROMA_URL=http://chroma-db:8000
-      - MLFLOW_TRACKING_URI=file:/mlruns
     depends_on:
       - postgres-audit
     volumes:
       - ./data:/app/data
-      - ./mlruns:/mlruns
     networks:
       - underwriting_network
 
