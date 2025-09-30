@@ -136,9 +136,10 @@ class UnderwritingAgent:
             rationale_text = str(llm_response.get("rationale", ""))
             rationale_lc = rationale_text.lower()
             mentions_0_100 = ("0-100" in rationale_lc) or ("out of 100" in rationale_lc)
-            mentions_0_1 = ("0-1" in rationale_lc) or ("0 to 1" in rationale_lc) or ("scale of 0-1" in rationale_lc)
-            # Normalize: scale to 0-100 only when score clearly in 0-1 or text says 0-1
-            if (0.0 <= score <= 1.0) or mentions_0_1:
+            # Only scale when the numeric score is actually in [0,1] OR when the text explicitly says Risk Score is on 0-1 scale
+            import re as _re2
+            risk_score_0_1_pattern = _re2.search(r"risk\s*score[^\n]*\(\s*0\s*([-to]|to)\s*1\s*\)", rationale_lc)
+            if (0.0 <= score <= 1.0) or bool(risk_score_0_1_pattern):
                 score = score * 100.0
             # Clamp to [0, 100]
             if score < 0.0:
@@ -193,8 +194,61 @@ class UnderwritingAgent:
                 rule_penalty += 20.0
                 reasons.append("income<30k")
 
-            # Final score = max of sources
-            final_score = max(score, risk_calc_score, rule_penalty)
+            # Final score = weighted combination (limits LLM dominance)
+            # Weights: 0.6 Calc + 0.3 LLM + 0.1 Rules
+            final_score = (
+                0.6 * float(risk_calc_score) +
+                0.3 * float(score) +
+                0.1 * float(rule_penalty)
+            )
+
+            # Safety adjustments (generalized): caps for clear low-risk, floors for clear high-risk
+            guard_notes: List[str] = []
+            claims_count = len(policyholder_data.get("claims_history", []) or [])
+
+            # Low-risk cap criteria: very high credit, no claims, middle age band, high income
+            low_risk_cap_applied = False
+            if (
+                ph_credit >= 800 and
+                25 <= ph_age <= 60 and
+                claims_count == 0 and
+                ph_income >= 80000
+            ):
+                if final_score > 30.0:
+                    final_score = 30.0
+                    low_risk_cap_applied = True
+                    guard_notes.append("low_risk_cap<=30")
+
+            # High-risk floor criteria: multiple strong red flags
+            high_risk_triggers: List[str] = []
+            if ph_age < 21:
+                high_risk_triggers.append("age<21")
+            if ph_credit < 500:
+                high_risk_triggers.append("credit<500")
+            if ph_income < 10000:
+                high_risk_triggers.append("income<10k")
+            try:
+                claims_per_year = float(policyholder_data.get("claims_per_year", 0) or 0)
+            except Exception:
+                claims_per_year = 0.0
+            if claims_count >= 3 or claims_per_year > 1.0:
+                high_risk_triggers.append("claims_heavy")
+
+            high_risk_floor_applied = False
+            if len(high_risk_triggers) >= 2:
+                if final_score < 85.0:
+                    final_score = 85.0
+                    high_risk_floor_applied = True
+                    guard_notes.append("high_risk_floor>=85")
+            elif len(high_risk_triggers) == 1:
+                if final_score < 70.0:
+                    final_score = 70.0
+                    high_risk_floor_applied = True
+                    guard_notes.append("high_risk_floor>=70")
+
+            # Clamp to [0,100]
+            if final_score < 0.0:
+                final_score = 0.0
             if final_score > 100.0:
                 final_score = 100.0
 
@@ -206,17 +260,25 @@ class UnderwritingAgent:
                 final_level = "Low"
 
             tool_list = list(tool_outputs.keys())
-            consistency_applied = rule_penalty > score or risk_calc_score > score
+            consistency_applied = (
+                rule_penalty > 0.0 or
+                bool(guard_notes)
+            )
             if consistency_applied and "consistency_guard" not in tool_list:
                 tool_list.append("consistency_guard")
 
             # Build rationale with adjustment note when consistency guard applied
             rationale_out = llm_response.get("rationale", "Assessment completed")
             if consistency_applied:
-                reasons_text = ", ".join(reasons) if reasons else "rules triggered"
+                # Merge reasons (rule-based) with guard notes/high-risk triggers
+                merged_reasons: List[str] = []
+                merged_reasons.extend(reasons)
+                merged_reasons.extend(high_risk_triggers)
+                merged_reasons.extend(guard_notes)
+                reasons_text = ", ".join(sorted(set(merged_reasons))) if merged_reasons else "guards applied"
                 rationale_out = (
-                    f"{rationale_out}\n\nNote: Final risk adjusted by hard rules ({reasons_text}). "
-                    f"Combined via max(LLM={round(score,1)}, Calc={round(risk_calc_score,1)}, Rules={round(rule_penalty,1)})."
+                    f"{rationale_out}\n\nNote: Final risk adjusted using weighted blend "
+                    f"(Calc 0.6, LLM 0.3, Rules 0.1) with safety guards ({reasons_text})."
                 )
 
             result = {
