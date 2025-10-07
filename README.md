@@ -46,7 +46,6 @@ curl -X POST http://localhost:8000/assess-risk \
 | MLflow UI | 5000 | Experiment tracking |
 | ChromaDB | 8001 | Vector database |
 | Ollama | 11434 | Local LLM server |
-| PostgreSQL | 5432 | Audit database |
 ```
 
 ## Project Structure
@@ -56,7 +55,7 @@ curl -X POST http://localhost:8000/assess-risk \
 │   ├── api/            # FastAPI endpoints
 │   ├── tools/          # Risk calculator & rule checker
 │   └── mlops/          # MLflow & retraining
-├── data/               # Raw & processed data
+├── data/               # Data
 ├── config/             # Configuration files
 ├── docs/               # Documentation
 └── docker-compose.yml  # Multi-container setup
