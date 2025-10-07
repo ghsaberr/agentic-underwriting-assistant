@@ -27,7 +27,6 @@ curl -X POST http://localhost:8000/assess-risk \
 - **AI Agent**: Ollama + LangChain + RAG
 - **Vector Store**: ChromaDB for document retrieval
 - **API**: FastAPI with MLflow tracking
-- **MLOps**: Automated retraining & monitoring
 
 ## Features
 
@@ -35,7 +34,7 @@ curl -X POST http://localhost:8000/assess-risk \
 - ✅ **Document Retrieval**: RAG-based relevant document search
 - ✅ **Deterministic Tools**: Risk calculator & rule checker
 - ✅ **Local LLM**: Ollama integration (llama2:7b)
-- ✅ **MLOps**: MLflow tracking & automated retraining
+- ✅ **MLOps**: MLflow tracking
 - ✅ **API**: RESTful endpoints for integration
 
 ## Services
@@ -54,7 +53,7 @@ curl -X POST http://localhost:8000/assess-risk \
 │   ├── agents/          # AI Agent (RAG + LLM)
 │   ├── api/            # FastAPI endpoints
 │   ├── tools/          # Risk calculator & rule checker
-│   └── mlops/          # MLflow & retraining
+│   └── mlops/          # MLflow
 ├── data/               # Data
 ├── config/             # Configuration files
 ├── docs/               # Documentation
@@ -67,32 +66,14 @@ curl -X POST http://localhost:8000/assess-risk \
 - `GET /health` - Health check
 - `POST /assess-risk` - Risk assessment
 - `GET /retraining-status` - Check retraining needs
-- `POST /trigger-retraining` - Manual retraining
 - `GET /mlflow-ui` - MLflow UI info
 
-## Retraining
-
-**Automatic**: Monthly + performance drift detection
-```bash
-# Check status
-curl http://localhost:8000/retraining-status
-
-# Manual trigger
-curl -X POST http://localhost:8000/trigger-retraining
-```
-
-**Monitoring**: Cron job for automated checks
-```bash
-# Run monitoring
-python scripts/monitor_retraining.py
-```
 
 ## MLflow
 
 - **UI**: http://localhost:5000
 - **Tracking**: Automatic experiment logging
 - **Artifacts**: Full rationale & model outputs
-- **Retraining**: Automated model updates
 
 ## Configuration
 
@@ -100,11 +81,9 @@ Edit `config/config.yaml`:
 - LLM settings (Ollama)
 - Risk scoring thresholds
 - RAG parameters
-- Retraining triggers
 
 ## Documentation
 
-- [Retraining Guide](docs/RETRAINING.md)
 - [API Documentation](http://localhost:8000/docs)
 - [MLflow UI](http://localhost:5000)
 
